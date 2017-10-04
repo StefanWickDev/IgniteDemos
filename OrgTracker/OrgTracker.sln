@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.26918.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrgTracker", "OrgTracker\OrgTracker.csproj", "{1C56CFDA-24B0-46B4-84BA-95D4112B4293}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A8CBE04A-A64E-431C-863D-7AB72EA8F567} = {A8CBE04A-A64E-431C-863D-7AB72EA8F567}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excel.Interop", "Excel.Interop\Excel.Interop.csproj", "{A8CBE04A-A64E-431C-863D-7AB72EA8F567}"
 EndProject

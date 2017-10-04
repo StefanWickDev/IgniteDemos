@@ -2,14 +2,13 @@
     x:Class="OrgTracker.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:OrgTracker"
-    xmlns:insider="http://schemas.microsoft.com/winfx/2006/xaml/presentation?IsApiContractPresent(Windows.Foundation.UniversalApiContract,5)"
+    xmlns:local="using:OrgTracker"    
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource SystemControlAcrylicWindowBrush}" Margin="0">
-        <insider:NavigationView x:Name="NavView"  
+        <NavigationView x:Name="NavView"  
                         IsPaneToggleButtonVisible="true"
                         OpenPaneLength="240" CompactModeThresholdWidth="560"
                         ExpandedModeThresholdWidth="560"
@@ -17,7 +16,7 @@
                         Loaded="NavigationView_Loaded"
                         ItemInvoked="NavView_ItemInvoked">
 
-            <insider:NavigationView.HeaderTemplate>
+            <NavigationView.HeaderTemplate>
                 <DataTemplate>
                     <Grid>
                         <Grid.ColumnDefinitions>
@@ -31,7 +30,7 @@
                         </StackPanel>
                     </Grid>
                 </DataTemplate>
-            </insider:NavigationView.HeaderTemplate>
+            </NavigationView.HeaderTemplate>
 
             <Frame x:Name="ContentFrame">
                 <Frame.ContentTransitions>
@@ -40,6 +39,6 @@
                     </TransitionCollection>
                 </Frame.ContentTransitions>
             </Frame>
-        </insider:NavigationView>
+        </NavigationView>
     </Grid>
 </Page>
