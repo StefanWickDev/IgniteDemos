@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Contoso_Mobile.LandingPage"
+             Title="Contoso Headtrax">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Gray">
+            <Image Source="logoclear.png" HorizontalOptions="FillAndExpand"/>
+            <Label Text="Enter Employee Name"  HorizontalOptions="Center"/>
+            <Entry x:Name="name" Placeholder="Ben Spain" PlaceholderColor="Cyan" HorizontalOptions="Center" WidthRequest="200" VerticalOptions="Center"/>
+            <Button Text="Load Org" Clicked="Button_Clicked" HorizontalOptions="Center" WidthRequest="200" VerticalOptions="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

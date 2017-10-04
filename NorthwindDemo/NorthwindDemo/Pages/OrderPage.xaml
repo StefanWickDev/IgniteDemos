@@ -1,0 +1,115 @@
+﻿<Page
+    x:Class="NorthwindDemo.OrderPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:NorthwindDemo"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource SystemControlAcrylicElementBrush}" 
+          AllowDrop="True"  
+          DragOver="OrderText_DragOver"
+          Drop="OrderText_Drop">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid Name="HiddenContainer" Grid.RowSpan="2" Opacity="0" >
+            <Grid Name="DirectPrintContainer">
+                <StackPanel Name="PrintableContent"
+                            Orientation="Vertical">
+                    <TextBlock Name="PrintText" 
+                               FontSize="10" FontFamily="Courier New" Margin="10"
+                               Text="This is the test that will be sent to the printer."
+                               TextWrapping="Wrap" />
+                </StackPanel>
+            </Grid>
+        </Grid>
+
+        <Grid Name="MainGrid" Grid.Row="2" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="20" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="20" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="20"/>
+            </Grid.RowDefinitions>
+
+            <CommandBar Grid.Row="0" Grid.Column="1" Background="{ThemeResource SystemControlAcrylicElementBrush}" 
+                        ClosedDisplayMode="Compact" IsSticky="True" >
+                <AppBarButton Name="Pay" Icon="Shop" Label="Pay" AccessKey="P"
+                              Click="Pay_Click"/>
+                <AppBarButton Name="Save" Icon="Save" Label="Save" AccessKey="S"
+                              Click="Save_Click"/>
+                <AppBarButton Name="Reprint" Icon="Print" Label="Reprint" AccessKey="R" Visibility="Collapsed"
+                              Click="Reprint_Click"/>
+                <AppBarSeparator/>
+                <AppBarToggleButton Name="Toggle" Icon="Switch" Label="Toggle" AccessKey="T"
+                                    Click="Toggle_Click"/>
+                <CommandBar.Content>
+                    <ComboBox Name="CustomerComboBox"
+                              PlaceholderText="Select customer" PlaceholderForeground="DarkRed"
+                              Width="200" HorizontalAlignment="Center" Margin="12" VerticalAlignment="Center"
+                              DataContext="Customers" ItemsSource="{x:Bind Customers}" DisplayMemberPath="CompanyName"
+                              />
+                </CommandBar.Content>
+            </CommandBar>
+            
+            <TextBlock Text="Submit New Order" Grid.Row="1" Grid.Column="1"
+                       Name="OrderPageHeading" FontSize="18" Margin="12"
+                       HorizontalAlignment="Center" Foreground="{ThemeResource SystemControlHighlightAccentBrush}" />
+
+            <TextBlock Text="Drop Northwind products here" Grid.Row="2" Grid.Column="1"
+                       Name="Instructions" FontStyle="Italic"
+                       HorizontalAlignment="Center" Foreground="SlateGray" />
+            
+            <ListView Name="OrderDetailsListView" Grid.Row="3" Grid.Column="1"
+                      DataContext="OrderDetails"
+                      ScrollViewer.VerticalScrollBarVisibility="Auto"
+                      ScrollViewer.IsVerticalRailEnabled="True"
+                      ScrollViewer.VerticalScrollMode="Enabled"
+                      ScrollViewer.HorizontalScrollMode="Enabled"
+                      ScrollViewer.HorizontalScrollBarVisibility="Auto"
+                      ScrollViewer.IsHorizontalRailEnabled="True" >
+                <ListView.HeaderTemplate>
+                    <DataTemplate >
+                        <StackPanel Orientation="Horizontal"  >
+                            <TextBlock Text="Qty" Margin="12, 0"  Width="50" Foreground="DarkRed" />
+                            <TextBlock Text="Description"  Width="220" Foreground="DarkRed" />
+                            <TextBlock Text="Per unit" Width="80" Foreground="DarkRed" />
+                            <TextBlock Text="Net price"  Width="80" Foreground="DarkRed" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.HeaderTemplate>
+                <ListView.ItemTemplate>
+                    <DataTemplate >
+                        <StackPanel Orientation="Horizontal" >
+                            <TextBox Name="QuantityTextbox" Text="{Binding Quantity, Mode=TwoWay}"
+                                     TextChanged="QuantityTextbox_TextChanged"
+                                     Width="50" />
+                            <TextBox Text="{Binding ProductName}"
+                                     IsReadOnly="True"
+                                     Width="220" />
+                            <TextBox Name="UnitPriceTextBox" Text="{Binding UnitPriceString, Mode=TwoWay}"
+                                     IsReadOnly="true"
+                                     Width="80" />
+                            <TextBox Name="NetAmountTextBox"
+                                     IsReadOnly="True"
+                                     Width="80" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+             </ListView>
+        </Grid>
+        
+    </Grid>
+</Page>

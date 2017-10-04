@@ -1,0 +1,45 @@
+﻿<Page
+    x:Class="OrgTracker.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:OrgTracker"
+    xmlns:insider="http://schemas.microsoft.com/winfx/2006/xaml/presentation?IsApiContractPresent(Windows.Foundation.UniversalApiContract,5)"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource SystemControlAcrylicWindowBrush}" Margin="0">
+        <insider:NavigationView x:Name="NavView"  
+                        IsPaneToggleButtonVisible="true"
+                        OpenPaneLength="240" CompactModeThresholdWidth="560"
+                        ExpandedModeThresholdWidth="560"
+                        IsSettingsVisible="True"
+                        Loaded="NavigationView_Loaded"
+                        ItemInvoked="NavView_ItemInvoked">
+
+            <insider:NavigationView.HeaderTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" Text="{Binding Title}" FontSize="32" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                        <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
+                            <HyperlinkButton Name="btnExport" Click="btnExport_Click" Content="Export to Excel" Margin="12" VerticalAlignment="Bottom" IsEnabled="{Binding CanExport}"/>
+                            <HyperlinkButton Name="btnPrint" Click="btnExport_Click" Content="Print Report" Margin="12" VerticalAlignment="Bottom" IsEnabled="{Binding CanPrint}"/>
+                        </StackPanel>
+                    </Grid>
+                </DataTemplate>
+            </insider:NavigationView.HeaderTemplate>
+
+            <Frame x:Name="ContentFrame">
+                <Frame.ContentTransitions>
+                    <TransitionCollection>
+                        <NavigationThemeTransition/>
+                    </TransitionCollection>
+                </Frame.ContentTransitions>
+            </Frame>
+        </insider:NavigationView>
+    </Grid>
+</Page>

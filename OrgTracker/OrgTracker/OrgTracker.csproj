@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{1C56CFDA-24B0-46B4-84BA-95D4112B4293}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OrgTracker</RootNamespace>
+    <AssemblyName>OrgTracker</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.16278.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.15063.0</TargetPlatformMinVersion>
+    <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WindowsXamlEnableOverview>true</WindowsXamlEnableOverview>
+    <PackageCertificateKeyFile>OrgTracker_StoreKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxBundle>Always</AppxBundle>
+    <AppxBundlePlatforms>x86|x64</AppxBundlePlatforms>
+    <PackageCertificateThumbprint>375FC1AE4C02010FC7C4095BFCA3755BBCED3A82</PackageCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\RoleDistribution.cs" />
+    <Compile Include="Views\EmployeePage.xaml.cs">
+      <DependentUpon>EmployeePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ChartPage.xaml.cs">
+      <DependentUpon>ChartPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\Employee.cs" />
+    <Compile Include="Views\NotImplPage.xaml.cs">
+      <DependentUpon>NotImplPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GridPage.xaml.cs">
+      <DependentUpon>GridPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="OrgTracker_StoreKey.pfx" />
+    <None Include="OrgTracker_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\Contoso\aaron_painter.jpg" />
+    <Content Include="Assets\Contoso\adam_barr.jpg" />
+    <Content Include="Assets\Contoso\alan_brewer.jpg" />
+    <Content Include="Assets\Contoso\alan_steiner.jpg" />
+    <Content Include="Assets\Contoso\alexandre_silva.jpg" />
+    <Content Include="Assets\Contoso\alfons_parovszky.jpg" />
+    <Content Include="Assets\Contoso\alicia_thomber.jpg" />
+    <Content Include="Assets\Contoso\alisa_lawyer.jpg" />
+    <Content Include="Assets\Contoso\allan_guinot.jpg" />
+    <Content Include="Assets\Contoso\allison_brown.jpg" />
+    <Content Include="Assets\Contoso\amy_alberts.jpg" />
+    <Content Include="Assets\Contoso\anders_madsen.jpg" />
+    <Content Include="Assets\Contoso\andrea_dunker.jpg" />
+    <Content Include="Assets\Contoso\andrew_ma.jpg" />
+    <Content Include="Assets\Contoso\andy_jacobs.jpg" />
+    <Content Include="Assets\Contoso\anna_lidman.jpg" />
+    <Content Include="Assets\Contoso\annelie_zubar.jpg" />
+    <Content Include="Assets\Contoso\anne_weiler.jpg" />
+    <Content Include="Assets\Contoso\anu_deshpande.jpg" />
+    <Content Include="Assets\Contoso\april_stewart.jpg" />
+    <Content Include="Assets\Contoso\ari_suominen.jpg" />
+    <Content Include="Assets\Contoso\arlene_huff.jpg" />
+    <Content Include="Assets\Contoso\arthur_yasinski.jpg" />
+    <Content Include="Assets\Contoso\arturo_lopez.jpg" />
+    <Content Include="Assets\Contoso\ayla_kol.jpg" />
+    <Content Include="Assets\Contoso\barry_johnson.jpg" />
+    <Content Include="Assets\Contoso\ben_spain.jpg" />
+    <Content Include="Assets\Contoso\bernard_tham.jpg" />
+    <Content Include="Assets\Contoso\blaine_dockter.jpg" />
+    <Content Include="Assets\Contoso\brad_sutton.jpg" />
+    <Content Include="Assets\Contoso\brian_cox.jpg" />
+    <Content Include="Assets\Contoso\brian_groth.jpg" />
+    <Content Include="Assets\Contoso\cari_drummelle.jpg" />
+    <Content Include="Assets\Contoso\carlos_grilo.jpg" />
+    <Content Include="Assets\Contoso\carol_troup.jpg" />
+    <Content Include="Assets\Contoso\cassie_hicks.jpg" />
+    <Content Include="Assets\Contoso\cesar_garcia.jpg" />
+    <Content Include="Assets\Contoso\chase_carpenter.jpg" />
+    <Content Include="Assets\Contoso\chen_yang.jpg" />
+    <Content Include="Assets\Contoso\christa_geller.jpg" />
+    <Content Include="Assets\Contoso\christian_jene.jpg" />
+    <Content Include="Assets\Contoso\christian_rytt.jpg" />
+    <Content Include="Assets\Contoso\christine_koch.jpg" />
+    <Content Include="Assets\Contoso\chris_barry.jpg" />
+    <Content Include="Assets\Contoso\chris_f._johnson.jpg" />
+    <Content Include="Assets\Contoso\chris_gray.jpg" />
+    <Content Include="Assets\Contoso\chris_johnson.jpg" />
+    <Content Include="Assets\Contoso\chris_mcgurk.jpg" />
+    <Content Include="Assets\Contoso\chris_norred.jpg" />
+    <Content Include="Assets\Contoso\cliff_diddier.jpg" />
+    <Content Include="Assets\Contoso\corinna_bolender.jpg" />
+    <Content Include="Assets\Contoso\daniel_durrer.jpg" />
+    <Content Include="Assets\Contoso\danni_ortman.jpg" />
+    <Content Include="Assets\Contoso\dan_bacon.jpg" />
+    <Content Include="Assets\Contoso\dan_hough.jpg" />
+    <Content Include="Assets\Contoso\dan_jump.jpg" />
+    <Content Include="Assets\Contoso\dan_park.jpg" />
+    <Content Include="Assets\Contoso\dave_natsuhara.jpg" />
+    <Content Include="Assets\Contoso\david_bossard.jpg" />
+    <Content Include="Assets\Contoso\david_bradley.jpg" />
+    <Content Include="Assets\Contoso\david_derwin.jpg" />
+    <Content Include="Assets\Contoso\david_hamilton.jpg" />
+    <Content Include="Assets\Contoso\david_maman.jpg" />
+    <Content Include="Assets\Contoso\david_simpson.jpg" />
+    <Content Include="Assets\Contoso\david_so.jpg" />
+    <Content Include="Assets\Contoso\david_wright.jpg" />
+    <Content Include="Assets\Contoso\david_zazzo.jpg" />
+    <Content Include="Assets\Contoso\denis_dehenne.jpg" />
+    <Content Include="Assets\Contoso\diane_glimp.jpg" />
+    <Content Include="Assets\Contoso\diane_prescott.jpg" />
+    <Content Include="Assets\Contoso\diane_tibbot.jpg" />
+    <Content Include="Assets\Contoso\dominik_paiha.jpg" />
+    <Content Include="Assets\Contoso\don_funk.jpg" />
+    <Content Include="Assets\Contoso\don_hall.jpg" />
+    <Content Include="Assets\Contoso\dough_mahugh.jpg" />
+    <Content Include="Assets\Contoso\eduard_dell.jpg" />
+    <Content Include="Assets\Contoso\elizabeth_andersen.jpg" />
+    <Content Include="Assets\Contoso\ellen_adams.jpg" />
+    <Content Include="Assets\Contoso\eran_harel.jpg" />
+    <Content Include="Assets\Contoso\eric_gruber.jpg" />
+    <Content Include="Assets\Contoso\erika_cheley.jpg" />
+    <Content Include="Assets\Contoso\erik_andersen.jpg" />
+    <Content Include="Assets\Contoso\erik_gubbels.jpg" />
+    <Content Include="Assets\Contoso\erwin_zischka.jpg" />
+    <Content Include="Assets\Contoso\esther_valle.jpg" />
+    <Content Include="Assets\Contoso\euan_garden.jpg" />
+    <Content Include="Assets\Contoso\fabrice_canel.jpg" />
+    <Content Include="Assets\Contoso\felipe_martins.jpg" />
+    <Content Include="Assets\Contoso\frank_martinez.jpg" />
+    <Content Include="Assets\Contoso\frank_miller.jpg" />
+    <Content Include="Assets\Contoso\gareth_chan.jpg" />
+    <Content Include="Assets\Contoso\garth_fort.jpg" />
+    <Content Include="Assets\Contoso\gina_boyer.jpg" />
+    <Content Include="Assets\Contoso\greg_winston.jpg" />
+    <Content Include="Assets\Contoso\guido_pica.jpg" />
+    <Content Include="Assets\Contoso\hans_gufler.jpg" />
+    <Content Include="Assets\Contoso\hazem_abolrous.jpg" />
+    <Content Include="Assets\Contoso\heinrich_fischer.jpg" />
+    <Content Include="Assets\Contoso\howard_gonzalez.jpg" />
+    <Content Include="Assets\Contoso\hugo_garcia.jpg" />
+    <Content Include="Assets\Contoso\humberto_acevedo.jpg" />
+    <Content Include="Assets\Contoso\ian_tien.jpg" />
+    <Content Include="Assets\Contoso\iben_thorell.jpg" />
+    <Content Include="Assets\Contoso\idan_rubin.jpg" />
+    <Content Include="Assets\Contoso\ivo_salmre.jpg" />
+    <Content Include="Assets\Contoso\jack_creasey.jpg" />
+    <Content Include="Assets\Contoso\jaka_stele.jpg" />
+    <Content Include="Assets\Contoso\james_wittrell.jpg" />
+    <Content Include="Assets\Contoso\jamie_reding.jpg" />
+    <Content Include="Assets\Contoso\jan_kotas.jpg" />
+    <Content Include="Assets\Contoso\jason_carlson.jpg" />
+    <Content Include="Assets\Contoso\jeff_hay.jpg" />
+    <Content Include="Assets\Contoso\jeff_williams.jpg" />
+    <Content Include="Assets\Contoso\jelle_visser.jpg" />
+    <Content Include="Assets\Contoso\jenni_merrifield.jpg" />
+    <Content Include="Assets\Contoso\jenny_lysaker.jpg" />
+    <Content Include="Assets\Contoso\jeremy_los.jpg" />
+    <Content Include="Assets\Contoso\jesper_aaberg.jpg" />
+    <Content Include="Assets\Contoso\Jessica Arnold.jpg" />
+    <Content Include="Assets\Contoso\jessica_arnold.jpg" />
+    <Content Include="Assets\Contoso\jesus_escolar.jpg" />
+    <Content Include="Assets\Contoso\jill_frank.jpg" />
+    <Content Include="Assets\Contoso\jim_corbin.jpg" />
+    <Content Include="Assets\Contoso\jim_daly.jpg" />
+    <Content Include="Assets\Contoso\jim_lucey.jpg" />
+    <Content Include="Assets\Contoso\joel_lachance.jpg" />
+    <Content Include="Assets\Contoso\john_evans.jpg" />
+    <Content Include="Assets\Contoso\john_ganio.jpg" />
+    <Content Include="Assets\Contoso\john_john.jpg" />
+    <Content Include="Assets\Contoso\john_kane.jpg" />
+    <Content Include="Assets\Contoso\john_yokum.jpg" />
+    <Content Include="Assets\Contoso\jon_grande.jpg" />
+    <Content Include="Assets\Contoso\jon_jaffe.jpg" />
+    <Content Include="Assets\Contoso\jordao_moreno.jpg" />
+    <Content Include="Assets\Contoso\jose_saraiva.jpg" />
+    <Content Include="Assets\Contoso\josh_edwards.jpg" />
+    <Content Include="Assets\Contoso\jo_berry.jpg" />
+    <Content Include="Assets\Contoso\julian_isla.jpg" />
+    <Content Include="Assets\Contoso\jun_cao.jpg" />
+    <Content Include="Assets\Contoso\justin_thorp.jpg" />
+    <Content Include="Assets\Contoso\kai_axford.jpg" />
+    <Content Include="Assets\Contoso\karen_berg.jpg" />
+    <Content Include="Assets\Contoso\karim_manar.jpg" />
+    <Content Include="Assets\Contoso\karin_lamb.jpg" />
+    <Content Include="Assets\Contoso\kari_furse.jpg" />
+    <Content Include="Assets\Contoso\kate_taneyhill.jpg" />
+    <Content Include="Assets\Contoso\keith_dishmo.jpg" />
+    <Content Include="Assets\Contoso\kelly_krout.jpg" />
+    <Content Include="Assets\Contoso\kelly_weadock.jpg" />
+    <Content Include="Assets\Contoso\kenneth_cools.jpg" />
+    <Content Include="Assets\Contoso\ken_ewert.jpg" />
+    <Content Include="Assets\Contoso\ken_malcolmson.jpg" />
+    <Content Include="Assets\Contoso\kerim_hanif.jpg" />
+    <Content Include="Assets\Contoso\kevin_kennedy.jpg" />
+    <Content Include="Assets\Contoso\kevin_verboort.jpg" />
+    <Content Include="Assets\Contoso\kim_abercrombie.jpg" />
+    <Content Include="Assets\Contoso\kim_ralls.jpg" />
+    <Content Include="Assets\Contoso\kirk_nason.jpg" />
+    <Content Include="Assets\Contoso\Kris Johnsen.jpg" />
+    <Content Include="Assets\Contoso\kris_johnsen.jpg" />
+    <Content Include="Assets\Contoso\larry_zhang.jpg" />
+    <Content Include="Assets\Contoso\lars_hansson.jpg" />
+    <Content Include="Assets\Contoso\lene_aalling.jpg" />
+    <Content Include="Assets\Contoso\lina_abola.jpg" />
+    <Content Include="Assets\Contoso\lisa_andrews.jpg" />
+    <Content Include="Assets\Contoso\lisa_miller.jpg" />
+    <Content Include="Assets\Contoso\lolan_song.jpg" />
+    <Content Include="Assets\Contoso\lori_kane.jpg" />
+    <Content Include="Assets\Contoso\lorraine_nay.jpg" />
+    <Content Include="Assets\Contoso\lubor_kollar.jpg" />
+    <Content Include="Assets\Contoso\luca_dellamore.jpg" />
+    <Content Include="Assets\Contoso\luis_bonifaz.jpg" />
+    <Content Include="Assets\Contoso\lukas_keller.jpg" />
+    <Content Include="Assets\Contoso\luka_abrus.jpg" />
+    <Content Include="Assets\Contoso\magnus_hedlund.jpg" />
+    <Content Include="Assets\Contoso\manish_chopra.jpg" />
+    <Content Include="Assets\Contoso\manueal_machado.jpg" />
+    <Content Include="Assets\Contoso\marcelo_truffat.jpg" />
+    <Content Include="Assets\Contoso\marc_faerber.jpg" />
+    <Content Include="Assets\Contoso\margaret_au.jpg" />
+    <Content Include="Assets\Contoso\marie_dubois.jpg" />
+    <Content Include="Assets\Contoso\marko_zajc.jpg" />
+    <Content Include="Assets\Contoso\mark_hanson.jpg" />
+    <Content Include="Assets\Contoso\maru_subrmani.jpg" />
+    <Content Include="Assets\Contoso\mary_cha.jpg" />
+    <Content Include="Assets\Contoso\matt_hink.jpg" />
+    <Content Include="Assets\Contoso\maurice_taylor.jpg" />
+    <Content Include="Assets\Contoso\mchiel_wories.jpg" />
+    <Content Include="Assets\Contoso\merav_sror.jpg" />
+    <Content Include="Assets\Contoso\michael_ludwig.jpg" />
+    <Content Include="Assets\Contoso\michael_lund.jpg" />
+    <Content Include="Assets\Contoso\michael_mainer.jpg" />
+    <Content Include="Assets\Contoso\michael_ovesen.jpg" />
+    <Content Include="Assets\Contoso\michael_sullivan.jpg" />
+    <Content Include="Assets\Contoso\michael_zeman.jpg" />
+    <Content Include="Assets\Contoso\michelle_fredette.jpg" />
+    <Content Include="Assets\Contoso\michiko_osada.jpg" />
+    <Content Include="Assets\Contoso\mike_nash.jpg" />
+    <Content Include="Assets\Contoso\mike_ray.jpg" />
+    <Content Include="Assets\Contoso\mike_tiano.jpg" />
+    <Content Include="Assets\Contoso\molly_clark.jpg" />
+    <Content Include="Assets\Contoso\nate_sun.jpg" />
+    <Content Include="Assets\Contoso\ned_friend.jpg" />
+    <Content Include="Assets\Contoso\neil_orint.jpg" />
+    <Content Include="Assets\Contoso\nuno_farinha.jpg" />
+    <Content Include="Assets\Contoso\nuria_gonzalez.jpg" />
+    <Content Include="Assets\Contoso\olivier_fontana.jpg" />
+    <Content Include="Assets\Contoso\parna_khot.jpg" />
+    <Content Include="Assets\Contoso\patricia_doyle.jpg" />
+    <Content Include="Assets\Contoso\paul_duffy.jpg" />
+    <Content Include="Assets\Contoso\pavel_simsa.jpg" />
+    <Content Include="Assets\Contoso\peder_thode.jpg" />
+    <Content Include="Assets\Contoso\peter_saddow.jpg" />
+    <Content Include="Assets\Contoso\phyllis_harris.jpg" />
+    <Content Include="Assets\Contoso\pieter_wycoff.jpg" />
+    <Content Include="Assets\Contoso\qiong_wu.jpg" />
+    <Content Include="Assets\Contoso\ray_chow.jpg" />
+    <Content Include="Assets\Contoso\ray_mohrman.jpg" />
+    <Content Include="Assets\Contoso\reina_cabatana.jpg" />
+    <Content Include="Assets\Contoso\renee_lo.jpg" />
+    <Content Include="Assets\Contoso\richard_tupy.jpg" />
+    <Content Include="Assets\Contoso\robert_ohara.jpg" />
+    <Content Include="Assets\Contoso\robin_young.jpg" />
+    <Content Include="Assets\Contoso\rob_barker.jpg" />
+    <Content Include="Assets\Contoso\rob_young.jpg" />
+    <Content Include="Assets\Contoso\roland_wacker.jpg" />
+    <Content Include="Assets\Contoso\ron_gabel.jpg" />
+    <Content Include="Assets\Contoso\sameer_tejani.jpg" />
+    <Content Include="Assets\Contoso\sanjay_patel.jpg" />
+    <Content Include="Assets\Contoso\sanjay_shah.jpg" />
+    <Content Include="Assets\Contoso\scott_bishop.jpg" />
+    <Content Include="Assets\Contoso\scott_gode.jpg" />
+    <Content Include="Assets\Contoso\scott_macdonald.jpg" />
+    <Content Include="Assets\Contoso\scott_rockfield.jpg" />
+    <Content Include="Assets\Contoso\Sean Purcell.jpg" />
+    <Content Include="Assets\Contoso\sean_chai.jpg" />
+    <Content Include="Assets\Contoso\sean_purcell.jpg" />
+    <Content Include="Assets\Contoso\shmuel_yair.jpg" />
+    <Content Include="Assets\Contoso\simon_pearson.jpg" />
+    <Content Include="Assets\Contoso\simon_rapier.jpg" />
+    <Content Include="Assets\Contoso\spencer_low.jpg" />
+    <Content Include="Assets\Contoso\stan_orme.jpg" />
+    <Content Include="Assets\Contoso\stephen_deming.jpg" />
+    <Content Include="Assets\Contoso\steven_wright.jpg" />
+    <Content Include="Assets\Contoso\steve_luper.jpg" />
+    <Content Include="Assets\Contoso\steve_masters.jpg" />
+    <Content Include="Assets\Contoso\stuart_munson.jpg" />
+    <Content Include="Assets\Contoso\sunil_uppal.jpg" />
+    <Content Include="Assets\Contoso\sven_buck.jpg" />
+    <Content Include="Assets\Contoso\syed_abbas.jpg" />
+    <Content Include="Assets\Contoso\tad_orman.jpg" />
+    <Content Include="Assets\Contoso\tai_lee.jpg" />
+    <Content Include="Assets\Contoso\ted_bremer.jpg" />
+    <Content Include="Assets\Contoso\terrence_phillip.jpg" />
+    <Content Include="Assets\Contoso\terry_earls.jpg" />
+    <Content Include="Assets\Contoso\thomas_hamborg.jpg" />
+    <Content Include="Assets\Contoso\tina_lassila.jpg" />
+    <Content Include="Assets\Contoso\tina_makovec.jpg" />
+    <Content Include="Assets\Contoso\toby_nixon.jpg" />
+    <Content Include="Assets\Contoso\todd_rowe.jpg" />
+    <Content Include="Assets\Contoso\tom_youtsey.jpg" />
+    <Content Include="Assets\Contoso\toni_poe.jpg" />
+    <Content Include="Assets\Contoso\tony_madigan.jpg" />
+    <Content Include="Assets\Contoso\tony_wang.jpg" />
+    <Content Include="Assets\Contoso\tosh_meston.jpg" />
+    <Content Include="Assets\Contoso\trey_pratt.jpg" />
+    <Content Include="Assets\Contoso\ty_carlson.jpg" />
+    <Content Include="Assets\Contoso\valery_ushakov.jpg" />
+    <Content Include="Assets\Contoso\vernette_price.jpg" />
+    <Content Include="Assets\Contoso\vladimir_egorov.jpg" />
+    <Content Include="Assets\Contoso\william_vong.jpg" />
+    <Content Include="Assets\Contoso\ye_xu.jpg" />
+    <Content Include="Assets\Ignite\anne_powerpoint.jpg" />
+    <Content Include="Assets\Ignite\cortana_skills.jpg" />
+    <Content Include="Assets\Ignite\dan_framework.jpg" />
+    <Content Include="Assets\Ignite\joe_azure.jpg" />
+    <Content Include="Assets\Ignite\john_centennial.jpg" />
+    <Content Include="Assets\Ignite\kerri_dotnet.jpg" />
+    <Content Include="Assets\Ignite\sql_lite.jpg" />
+    <Content Include="Assets\Ignite\tina_code.jpg" />
+    <Content Include="Assets\Ignite\visual_studio.jpg" />
+    <Content Include="Assets\Ignite\win_dbg.jpg" />
+    <Content Include="Assets\Ignite\ye_zhu.jpg" />
+    <Content Include="Assets\Ignite\zack_ignite.jpg" />
+    <Content Include="Assets\LargeTile.scale-100.png" />
+    <Content Include="Assets\LargeTile.scale-200.png" />
+    <Content Include="Assets\SmallTile.scale-100.png" />
+    <Content Include="Assets\SmallTile.scale-200.png" />
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\Square150x150Logo.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.altform-unplated_targetsize-16.png" />
+    <Content Include="Assets\Square44x44Logo.altform-unplated_targetsize-48.png" />
+    <Content Include="Assets\Square44x44Logo.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-16.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-48.png" />
+    <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="Assets\StoreLogo.scale-200.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-100.png" />
+    <Content Include="Interop\Excel.Interop.exe" />
+    <None Include="Package.StoreAssociation.xml" />
+    <Content Include="Properties\Default.rd.xml" />
+    <Content Include="Assets\SplashScreen.scale-200.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="Views\EmployeePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ChartPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\NotImplPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\GridPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
+      <Version>6.0.0-preview1-25706-01</Version>
+    </PackageReference>
+    <PackageReference Include="Telerik.UI.for.UniversalWindowsPlatform">
+      <Version>1.0.0.6</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="WindowsDesktop, Version=10.0.16278.0">
+      <Name>Windows Desktop Extensions for the UWP</Name>
+    </SDKReference>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
+    <VisualStudioVersion>14.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

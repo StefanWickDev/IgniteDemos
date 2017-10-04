@@ -1,0 +1,38 @@
+﻿<Page
+    x:Class="NorthwindDemo.OrdersPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:telerikGrid="using:Telerik.UI.Xaml.Controls.Grid"
+    xmlns:local="using:NorthwindDemo"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource SystemControlAcrylicWindowBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <TextBlock x:ConnectionId='1' Text="Double click on an order to view details or reprint receipt" Grid.Row="0"
+                   Name="Instructions" FontStyle="Italic"
+                   HorizontalAlignment="Center" Foreground="SlateGray" />
+
+        <StackPanel Orientation="Horizontal" Grid.Row="1" HorizontalAlignment="Center">
+            <DatePicker x:ConnectionId='3' Name="BeginDate" Header="Begin Date" Foreground="DarkRed"
+                                                 
+                        Margin="16" />
+            <DatePicker x:ConnectionId='4' Name="EndDate" Header="End Date" Foreground="DarkRed"
+                                                 
+                        Margin="16" />
+        </StackPanel>
+        
+        <telerikGrid:RadDataGrid x:ConnectionId='2' x:Name="DataGrid" Margin="16" Grid.Row="2"
+                                                                     
+                                 SelectionMode="Single"
+                                 Background="{ThemeResource SystemControlAcrylicWindowBrush}"
+                                 GridLinesBrush="DarkRed"/>
+    </Grid>
+</Page>
+

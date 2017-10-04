@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{9B20C44B-89B6-4A2F-819E-30D01AAA9C34}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Contoso_Mobile.UWP</RootNamespace>
+    <AssemblyName>Contoso_Mobile.UWP</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetPlatformVersion>10.0.15063.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.15063.0</TargetPlatformMinVersion>
+    <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
+    <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>Contoso_Mobile.UWP_TemporaryKey.pfx</PackageCertificateKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <None Include="project.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="Contoso_Mobile.UWP_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="aaron_painter.jpg" />
+    <Content Include="adam_barr.jpg" />
+    <Content Include="alan_brewer.jpg" />
+    <Content Include="alan_steiner.jpg" />
+    <Content Include="alexandre_silva.jpg" />
+    <Content Include="alfons_parovszky.jpg" />
+    <Content Include="alicia_thomber.jpg" />
+    <Content Include="alisa_lawyer.jpg" />
+    <Content Include="allan_guinot.jpg" />
+    <Content Include="allison_brown.jpg" />
+    <Content Include="amy_alberts.jpg" />
+    <Content Include="anders_madsen.jpg" />
+    <Content Include="andrea_dunker.jpg" />
+    <Content Include="andrew_ma.jpg" />
+    <Content Include="andy_jacobs.jpg" />
+    <Content Include="anna_lidman.jpg" />
+    <Content Include="annelie_zubar.jpg" />
+    <Content Include="anne_weiler.jpg" />
+    <Content Include="anu_deshpande.jpg" />
+    <Content Include="april_stewart.jpg" />
+    <Content Include="ari_suominen.jpg" />
+    <Content Include="arlene_huff.jpg" />
+    <Content Include="arthur_yasinski.jpg" />
+    <Content Include="arturo_lopez.jpg" />
+    <Content Include="ayla_kol.jpg" />
+    <Content Include="barry_johnson.jpg" />
+    <Content Include="ben_spain.jpg" />
+    <Content Include="bernard_tham.jpg" />
+    <Content Include="blaine_dockter.jpg" />
+    <Content Include="brad_sutton.jpg" />
+    <Content Include="brian_cox.jpg" />
+    <Content Include="brian_groth.jpg" />
+    <Content Include="cari_drummelle.jpg" />
+    <Content Include="carlos_grilo.jpg" />
+    <Content Include="carol_troup.jpg" />
+    <Content Include="cassie_hicks.jpg" />
+    <Content Include="cesar_garcia.jpg" />
+    <Content Include="chase_carpenter.jpg" />
+    <Content Include="chen_yang.jpg" />
+    <Content Include="christa_geller.jpg" />
+    <Content Include="christian_jene.jpg" />
+    <Content Include="christian_rytt.jpg" />
+    <Content Include="christine_koch.jpg" />
+    <Content Include="chris_barry.jpg" />
+    <Content Include="chris_f._johnson.jpg" />
+    <Content Include="chris_gray.jpg" />
+    <Content Include="chris_johnson.jpg" />
+    <Content Include="chris_mcgurk.jpg" />
+    <Content Include="chris_norred.jpg" />
+    <Content Include="cliff_diddier.jpg" />
+    <Content Include="corinna_bolender.jpg" />
+    <Content Include="daniel_durrer.jpg" />
+    <Content Include="danni_ortman.jpg" />
+    <Content Include="dan_bacon.jpg" />
+    <Content Include="dan_hough.jpg" />
+    <Content Include="dan_jump.jpg" />
+    <Content Include="dan_park.jpg" />
+    <Content Include="dave_natsuhara.jpg" />
+    <Content Include="david_bossard.jpg" />
+    <Content Include="david_bradley.jpg" />
+    <Content Include="david_derwin.jpg" />
+    <Content Include="david_hamilton.jpg" />
+    <Content Include="david_maman.jpg" />
+    <Content Include="david_simpson.jpg" />
+    <Content Include="david_so.jpg" />
+    <Content Include="david_wright.jpg" />
+    <Content Include="david_zazzo.jpg" />
+    <Content Include="denis_dehenne.jpg" />
+    <Content Include="diane_glimp.jpg" />
+    <Content Include="diane_prescott.jpg" />
+    <Content Include="diane_tibbot.jpg" />
+    <Content Include="dominik_paiha.jpg" />
+    <Content Include="don_funk.jpg" />
+    <Content Include="don_hall.jpg" />
+    <Content Include="dough_mahugh.jpg" />
+    <Content Include="eduard_dell.jpg" />
+    <Content Include="elizabeth_andersen.jpg" />
+    <Content Include="ellen_adams.jpg" />
+    <Content Include="eran_harel.jpg" />
+    <Content Include="eric_gruber.jpg" />
+    <Content Include="erika_cheley.jpg" />
+    <Content Include="erik_andersen.jpg" />
+    <Content Include="erik_gubbels.jpg" />
+    <Content Include="erwin_zischka.jpg" />
+    <Content Include="esther_valle.jpg" />
+    <Content Include="euan_garden.jpg" />
+    <Content Include="fabrice_canel.jpg" />
+    <Content Include="felipe_martins.jpg" />
+    <Content Include="frank_martinez.jpg" />
+    <Content Include="frank_miller.jpg" />
+    <Content Include="gareth_chan.jpg" />
+    <Content Include="garth_fort.jpg" />
+    <Content Include="gina_boyer.jpg" />
+    <Content Include="greg_winston.jpg" />
+    <Content Include="guido_pica.jpg" />
+    <Content Include="hans_gufler.jpg" />
+    <Content Include="hazem_abolrous.jpg" />
+    <Content Include="heinrich_fischer.jpg" />
+    <Content Include="howard_gonzalez.jpg" />
+    <Content Include="hugo_garcia.jpg" />
+    <Content Include="humberto_acevedo.jpg" />
+    <Content Include="ian_tien.jpg" />
+    <Content Include="iben_thorell.jpg" />
+    <Content Include="idan_rubin.jpg" />
+    <Content Include="ivo_salmre.jpg" />
+    <Content Include="jack_creasey.jpg" />
+    <Content Include="jaka_stele.jpg" />
+    <Content Include="james_wittrell.jpg" />
+    <Content Include="jamie_reding.jpg" />
+    <Content Include="jan_kotas.jpg" />
+    <Content Include="jason_carlson.jpg" />
+    <Content Include="jeff_hay.jpg" />
+    <Content Include="jeff_williams.jpg" />
+    <Content Include="jelle_visser.jpg" />
+    <Content Include="jenni_merrifield.jpg" />
+    <Content Include="jenny_lysaker.jpg" />
+    <Content Include="jeremy_los.jpg" />
+    <Content Include="jesper_aaberg.jpg" />
+    <Content Include="jessica_arnold.jpg" />
+    <Content Include="jesus_escolar.jpg" />
+    <Content Include="jill_frank.jpg" />
+    <Content Include="jim_corbin.jpg" />
+    <Content Include="jim_daly.jpg" />
+    <Content Include="jim_lucey.jpg" />
+    <Content Include="joel_lachance.jpg" />
+    <Content Include="john_evans.jpg" />
+    <Content Include="john_ganio.jpg" />
+    <Content Include="john_john.jpg" />
+    <Content Include="john_kane.jpg" />
+    <Content Include="john_yokum.jpg" />
+    <Content Include="jon_grande.jpg" />
+    <Content Include="jon_jaffe.jpg" />
+    <Content Include="jordao_moreno.jpg" />
+    <Content Include="jose_saraiva.jpg" />
+    <Content Include="josh_edwards.jpg" />
+    <Content Include="jo_berry.jpg" />
+    <Content Include="julian_isla.jpg" />
+    <Content Include="jun_cao.jpg" />
+    <Content Include="justin_thorp.jpg" />
+    <Content Include="kai_axford.jpg" />
+    <Content Include="karen_berg.jpg" />
+    <Content Include="karim_manar.jpg" />
+    <Content Include="karin_lamb.jpg" />
+    <Content Include="kari_furse.jpg" />
+    <Content Include="kate_taneyhill.jpg" />
+    <Content Include="keith_dishmo.jpg" />
+    <Content Include="kelly_krout.jpg" />
+    <Content Include="kelly_weadock.jpg" />
+    <Content Include="kenneth_cools.jpg" />
+    <Content Include="ken_ewert.jpg" />
+    <Content Include="ken_malcolmson.jpg" />
+    <Content Include="kerim_hanif.jpg" />
+    <Content Include="kevin_kennedy.jpg" />
+    <Content Include="kevin_verboort.jpg" />
+    <Content Include="kim_abercrombie.jpg" />
+    <Content Include="kim_ralls.jpg" />
+    <Content Include="kirk_nason.jpg" />
+    <Content Include="kris_johnsen.jpg" />
+    <Content Include="larry_zhang.jpg" />
+    <Content Include="lars_hansson.jpg" />
+    <Content Include="lene_aalling.jpg" />
+    <Content Include="lina_abola.jpg" />
+    <Content Include="lisa_andrews.jpg" />
+    <Content Include="lisa_miller.jpg" />
+    <Content Include="logoclear.png" />
+    <Content Include="lolan_song.jpg" />
+    <Content Include="lori_kane.jpg" />
+    <Content Include="lorraine_nay.jpg" />
+    <Content Include="lubor_kollar.jpg" />
+    <Content Include="luca_dellamore.jpg" />
+    <Content Include="luis_bonifaz.jpg" />
+    <Content Include="lukas_keller.jpg" />
+    <Content Include="luka_abrus.jpg" />
+    <Content Include="magnus_hedlund.jpg" />
+    <Content Include="manish_chopra.jpg" />
+    <Content Include="manueal_machado.jpg" />
+    <Content Include="marcelo_truffat.jpg" />
+    <Content Include="marc_faerber.jpg" />
+    <Content Include="margaret_au.jpg" />
+    <Content Include="marie_dubois.jpg" />
+    <Content Include="marko_zajc.jpg" />
+    <Content Include="mark_hanson.jpg" />
+    <Content Include="maru_subrmani.jpg" />
+    <Content Include="mary_cha.jpg" />
+    <Content Include="matt_hink.jpg" />
+    <Content Include="maurice_taylor.jpg" />
+    <Content Include="mchiel_wories.jpg" />
+    <Content Include="merav_sror.jpg" />
+    <Content Include="michael_ludwig.jpg" />
+    <Content Include="michael_lund.jpg" />
+    <Content Include="michael_mainer.jpg" />
+    <Content Include="michael_ovesen.jpg" />
+    <Content Include="michael_sullivan.jpg" />
+    <Content Include="michael_zeman.jpg" />
+    <Content Include="michelle_fredette.jpg" />
+    <Content Include="michiko_osada.jpg" />
+    <Content Include="mike_nash.jpg" />
+    <Content Include="mike_ray.jpg" />
+    <Content Include="mike_tiano.jpg" />
+    <Content Include="molly_clark.jpg" />
+    <Content Include="nate_sun.jpg" />
+    <Content Include="ned_friend.jpg" />
+    <Content Include="neil_orint.jpg" />
+    <Content Include="nuno_farinha.jpg" />
+    <Content Include="nuria_gonzalez.jpg" />
+    <Content Include="olivier_fontana.jpg" />
+    <Content Include="parna_khot.jpg" />
+    <Content Include="patricia_doyle.jpg" />
+    <Content Include="paul_duffy.jpg" />
+    <Content Include="pavel_simsa.jpg" />
+    <Content Include="peder_thode.jpg" />
+    <Content Include="peter_saddow.jpg" />
+    <Content Include="phyllis_harris.jpg" />
+    <Content Include="pieter_wycoff.jpg" />
+    <Content Include="Properties\Default.rd.xml" />
+    <Content Include="Assets\LockScreenLogo.scale-100.png" />
+    <Content Include="Assets\LockScreenLogo.scale-125.png" />
+    <Content Include="Assets\LockScreenLogo.scale-150.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200.png" />
+    <Content Include="Assets\LockScreenLogo.scale-400.png" />
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-125.png" />
+    <Content Include="Assets\SplashScreen.scale-150.png" />
+    <Content Include="Assets\SplashScreen.scale-200.png" />
+    <Content Include="Assets\SplashScreen.scale-400.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.scale-125.png" />
+    <Content Include="Assets\Square44x44Logo.scale-150.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.scale-400.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-16_altform-unplated.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-32_altform-unplated.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-48_altform-unplated.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-256_altform-unplated.png" />
+    <Content Include="Assets\StoreLogo.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-100.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-125.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-150.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-400.png" />
+    <Content Include="qiong_wu.jpg" />
+    <Content Include="ray_chow.jpg" />
+    <Content Include="ray_mohrman.jpg" />
+    <Content Include="reina_cabatana.jpg" />
+    <Content Include="renee_lo.jpg" />
+    <Content Include="richard_tupy.jpg" />
+    <Content Include="robert_ohara.jpg" />
+    <Content Include="robin_young.jpg" />
+    <Content Include="rob_barker.jpg" />
+    <Content Include="rob_young.jpg" />
+    <Content Include="roland_wacker.jpg" />
+    <Content Include="ron_gabel.jpg" />
+    <Content Include="sameer_tejani.jpg" />
+    <Content Include="sanjay_patel.jpg" />
+    <Content Include="sanjay_shah.jpg" />
+    <Content Include="scott_bishop.jpg" />
+    <Content Include="scott_gode.jpg" />
+    <Content Include="scott_macdonald.jpg" />
+    <Content Include="scott_rockfield.jpg" />
+    <Content Include="sean_chai.jpg" />
+    <Content Include="sean_purcell.jpg" />
+    <Content Include="shmuel_yair.jpg" />
+    <Content Include="simon_pearson.jpg" />
+    <Content Include="simon_rapier.jpg" />
+    <Content Include="spencer_low.jpg" />
+    <Content Include="stan_orme.jpg" />
+    <Content Include="stephen_deming.jpg" />
+    <Content Include="steven_wright.jpg" />
+    <Content Include="steve_luper.jpg" />
+    <Content Include="steve_masters.jpg" />
+    <Content Include="stuart_munson.jpg" />
+    <Content Include="sunil_koduri.jpg" />
+    <Content Include="sunil_uppal.jpg" />
+    <Content Include="sven_buck.jpg" />
+    <Content Include="syed_abbas.jpg" />
+    <Content Include="tad_orman.jpg" />
+    <Content Include="tai_lee.jpg" />
+    <Content Include="ted_bremer.jpg" />
+    <Content Include="terrence_phillip.jpg" />
+    <Content Include="terry_earls.jpg" />
+    <Content Include="thomas_hamborg.jpg" />
+    <Content Include="tina_lassila.jpg" />
+    <Content Include="tina_makovec.jpg" />
+    <Content Include="toby_nixon.jpg" />
+    <Content Include="todd_rowe.jpg" />
+    <Content Include="tom_youtsey.jpg" />
+    <Content Include="toni_poe.jpg" />
+    <Content Include="tony_madigan.jpg" />
+    <Content Include="tony_wang.jpg" />
+    <Content Include="tosh_meston.jpg" />
+    <Content Include="trey_pratt.jpg" />
+    <Content Include="ty_carlson.jpg" />
+    <Content Include="valery_ushakov.jpg" />
+    <Content Include="vernette_price.jpg" />
+    <Content Include="vladimir_egorov.jpg" />
+    <Content Include="william_vong.jpg" />
+    <Content Include="ye_xu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
+    <VisualStudioVersion>14.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="..\Contoso_Mobile\Contoso_Mobile.projitems" Label="Shared" Condition="Exists('..\Contoso_Mobile\Contoso_Mobile.projitems')" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

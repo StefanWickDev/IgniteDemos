@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Roots >
+  <Roots.Interfaces>
+    <RootInterface FullName="Windows.UI.Xaml.Data.IValueConverter" />
+  </Roots.Interfaces>
+  <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="MinValue" />
+    <RootPropertyPathName Name="Thickness" />
+  </Roots.PropertyPathNames>
+  <Roots.RootTypes>
+    <RootType FullName="Windows.UI.Xaml.ResourceDictionary">
+      <RootProperty Name="MergedDictionaries" />
+      <RootProperty Name="Source" />
+      <RootProperty Name="ThemeDictionaries" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.UserThemeResources" />
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.CustomResourceExtension" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.DataVisualization.BulletGraph.ValueToVisibilityConverter">
+      <RootProperty Name="Visibility" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.DataTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.DataVisualization.RadLinearGauge">
+      <RootProperty Name="MinValue" />
+      <RootProperty Name="MaxValue" />
+      <RootProperty Name="TickStep" />
+      <RootProperty Name="LabelStep" />
+      <RootProperty Name="LabelOffset" />
+      <RootProperty Name="TickTemplate" />
+      <RootProperty Name="LabelTemplate" />
+      <RootProperty Name="Indicators" />
+      <RootMethod Name="GetOrientation" />
+      <RootMethod Name="SetOrientation" />
+      <RootMethod Name="GetIndicatorOffset" />
+      <RootMethod Name="SetIndicatorOffset" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Control">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.DataVisualization.RadGauge">
+      <RootProperty Name="LabelTemplate" />
+      <RootProperty Name="TickTemplate" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.DataVisualization.RadRadialGauge" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.DataVisualization.LinearBarGaugeIndicator">
+      <RootProperty Name="Value" />
+      <RootProperty Name="Brush" />
+      <RootProperty Name="Thickness" />
+      <RootProperty Name="StartValue" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="IsAnimated" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.DataVisualization.ArrowGaugeIndicator" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.DataVisualization.RadialBarGaugeIndicator" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.DataVisualization.MarkerGaugeIndicator">
+      <RootProperty Name="Value" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="ContentTemplate" />
+      <RootProperty Name="IsRotated" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.DataVisualization.SegmentedGaugeIndicator" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.DataVisualization.SegmentedLinearGaugeIndicator">
+      <RootProperty Name="StartValue" />
+      <RootProperty Name="Value" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.DataVisualization.SegmentedRadialGaugeIndicator" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.DataVisualization.BarIndicatorSegment" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.DataVisualization.RadBulletGraph">
+      <RootProperty Name="FeaturedMeasureBrush" />
+      <RootProperty Name="FeaturedMeasureAlternativeTemplate" />
+      <RootProperty Name="ComparativeMeasureTemplate" />
+      <RootProperty Name="TickTemplate" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Setter">
+      <RootProperty Name="Property" />
+      <RootProperty Name="Value" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ControlTemplate">
+      <RootProperty Name="TargetType" />
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.TemplateBindingExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Canvas">
+      <RootProperty Name="Children" />
+      <RootMethod Name="GetZIndex" />
+      <RootMethod Name="SetZIndex" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="ElementName" />
+      <RootProperty Name="Path" />
+      <RootProperty Name="Converter" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Shapes.Rectangle">
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Fill" />
+      <RootProperty Name="StrokeThickness" />
+      <RootProperty Name="Stroke" />
+      <RootProperty Name="RenderTransformOrigin" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Shapes.Ellipse">
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Fill" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="Children" />
+      <RootProperty Name="RenderTransformOrigin" />
+      <RootProperty Name="RenderTransform" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ContentPresenter">
+      <RootProperty Name="Content" />
+      <RootProperty Name="ContentTemplate" />
+      <RootProperty Name="RenderTransformOrigin" />
+      <RootProperty Name="RenderTransform" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.RotateTransform" />
+    <RootType FullName="Windows.UI.Xaml.Shapes.Path">
+      <RootProperty Name="StrokeThickness" />
+      <RootProperty Name="Stroke" />
+      <RootProperty Name="Data" />
+      <RootProperty Name="Fill" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.PathGeometry">
+      <RootProperty Name="Figures" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.PathFigure">
+      <RootProperty Name="IsClosed" />
+      <RootProperty Name="Segments" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.GeometryGroup">
+      <RootProperty Name="Children" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.LineGeometry" />
+    <RootType FullName="Windows.UI.Xaml.Media.EllipseGeometry">
+      <RootProperty Name="RadiusX" />
+      <RootProperty Name="RadiusY" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.LineSegment" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.DataVisualization.RadialGaugePanel" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.DataVisualization.LinearGaugePanel" />
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="Text" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Foreground" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.SolidColorBrush">
+      <RootProperty Name="Color" />
+    </RootType>
+  </Roots.RootTypes>
+</Roots>

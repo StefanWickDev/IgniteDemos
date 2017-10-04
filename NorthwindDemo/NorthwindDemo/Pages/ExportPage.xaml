@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="NorthwindDemo.ExportPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:NorthwindDemo"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource SystemControlAcrylicWindowBrush}">
+        <StackPanel Orientation="Vertical" Margin="16" Grid.Row="1" HorizontalAlignment="Center">
+            <TextBlock Margin="16" FontStyle="Italic" Foreground="DarkRed"
+                       Text="Select beginning and ending months for spreadsheet" />
+
+            <DatePicker Name="BeginDate" Header="Begin Date" Foreground="DarkRed"
+                        Margin="16" AccessKey="B" />
+
+            <DatePicker Name="EndDate" Header="End Date" Foreground="DarkRed"
+                        Margin="16"  />
+
+            <Button Name="ExportButton" Margin="16"
+                    Content="Export to Excel"
+                    AccessKey="E"
+                    Click="ExportButton_Click"
+                    />
+        </StackPanel>
+    </Grid>
+</Page>

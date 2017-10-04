@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="Telerik.UI.Xaml.Map.UWP" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="Telerik.Core">
+				<ResourceMapSubtree name="Properties">
+					<NamedResource name="default.rd.xml" uri="ms-resource://Telerik.UI.Xaml.Map.UWP/Files/Telerik.Core/Properties/default.rd.xml">
+						<Candidate type="Path">
+							<Value>Telerik.Core\Properties\default.rd.xml</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Telerik.UI.Xaml.Map.UWP">
+				<NamedResource name="Telerik.UI.Xaml.Map.UWP.xr.xml" uri="ms-resource://Telerik.UI.Xaml.Map.UWP/Files/Telerik.UI.Xaml.Map.UWP/Telerik.UI.Xaml.Map.UWP.xr.xml">
+					<Candidate type="Path">
+						<Value>Telerik.UI.Xaml.Map.UWP\Telerik.UI.Xaml.Map.UWP.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xaml" uri="ms-resource://Telerik.UI.Xaml.Map.UWP/Files/Telerik.UI.Xaml.Map.UWP/Themes/Generic.xaml">
+						<Candidate type="Path">
+							<Value>Telerik.UI.Xaml.Map.UWP\Themes\Generic.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Generic.xbf" uri="ms-resource://Telerik.UI.Xaml.Map.UWP/Files/Telerik.UI.Xaml.Map.UWP/Themes/Generic.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ThemeResourcesDark.xaml" uri="ms-resource://Telerik.UI.Xaml.Map.UWP/Files/Telerik.UI.Xaml.Map.UWP/Themes/ThemeResourcesDark.xaml">
+						<Candidate type="Path">
+							<Value>Telerik.UI.Xaml.Map.UWP\Themes\ThemeResourcesDark.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ThemeResourcesDark.xbf" uri="ms-resource://Telerik.UI.Xaml.Map.UWP/Files/Telerik.UI.Xaml.Map.UWP/Themes/ThemeResourcesDark.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ThemeResourcesHighContrast.xaml" uri="ms-resource://Telerik.UI.Xaml.Map.UWP/Files/Telerik.UI.Xaml.Map.UWP/Themes/ThemeResourcesHighContrast.xaml">
+						<Candidate type="Path">
+							<Value>Telerik.UI.Xaml.Map.UWP\Themes\ThemeResourcesHighContrast.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ThemeResourcesHighContrast.xbf" uri="ms-resource://Telerik.UI.Xaml.Map.UWP/Files/Telerik.UI.Xaml.Map.UWP/Themes/ThemeResourcesHighContrast.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ThemeResourcesLight.xaml" uri="ms-resource://Telerik.UI.Xaml.Map.UWP/Files/Telerik.UI.Xaml.Map.UWP/Themes/ThemeResourcesLight.xaml">
+						<Candidate type="Path">
+							<Value>Telerik.UI.Xaml.Map.UWP\Themes\ThemeResourcesLight.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ThemeResourcesLight.xbf" uri="ms-resource://Telerik.UI.Xaml.Map.UWP/Files/Telerik.UI.Xaml.Map.UWP/Themes/ThemeResourcesLight.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Telerik.UI.Xaml.Primitives.UWP">
+				<NamedResource name="Telerik.UI.Xaml.Primitives.UWP.xr.xml" uri="ms-resource://Telerik.UI.Xaml.Map.UWP/Files/Telerik.UI.Xaml.Primitives.UWP/Telerik.UI.Xaml.Primitives.UWP.xr.xml">
+					<Candidate type="Path">
+						<Value>Telerik.UI.Xaml.Primitives.UWP\Telerik.UI.Xaml.Primitives.UWP.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xaml" uri="ms-resource://Telerik.UI.Xaml.Map.UWP/Files/Telerik.UI.Xaml.Primitives.UWP/Themes/Generic.xaml">
+						<Candidate type="Path">
+							<Value>Telerik.UI.Xaml.Primitives.UWP\Themes\Generic.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="HubTilePalette.xaml" uri="ms-resource://Telerik.UI.Xaml.Map.UWP/Files/Telerik.UI.Xaml.Primitives.UWP/Themes/HubTilePalette.xaml">
+						<Candidate type="Path">
+							<Value>Telerik.UI.Xaml.Primitives.UWP\Themes\HubTilePalette.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Resources.xaml" uri="ms-resource://Telerik.UI.Xaml.Map.UWP/Files/Telerik.UI.Xaml.Primitives.UWP/Themes/Resources.xaml">
+						<Candidate type="Path">
+							<Value>Telerik.UI.Xaml.Primitives.UWP\Themes\Resources.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="SharedResources.xaml" uri="ms-resource://Telerik.UI.Xaml.Map.UWP/Files/Telerik.UI.Xaml.Primitives.UWP/Themes/SharedResources.xaml">
+						<Candidate type="Path">
+							<Value>Telerik.UI.Xaml.Primitives.UWP\Themes\SharedResources.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ThemeColorsDark.xaml" uri="ms-resource://Telerik.UI.Xaml.Map.UWP/Files/Telerik.UI.Xaml.Primitives.UWP/Themes/ThemeColorsDark.xaml">
+						<Candidate type="Path">
+							<Value>Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeColorsDark.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ThemeColorsHighContrast.xaml" uri="ms-resource://Telerik.UI.Xaml.Map.UWP/Files/Telerik.UI.Xaml.Primitives.UWP/Themes/ThemeColorsHighContrast.xaml">
+						<Candidate type="Path">
+							<Value>Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeColorsHighContrast.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ThemeColorsLight.xaml" uri="ms-resource://Telerik.UI.Xaml.Map.UWP/Files/Telerik.UI.Xaml.Primitives.UWP/Themes/ThemeColorsLight.xaml">
+						<Candidate type="Path">
+							<Value>Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeColorsLight.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ThemeResourcesDark.xaml" uri="ms-resource://Telerik.UI.Xaml.Map.UWP/Files/Telerik.UI.Xaml.Primitives.UWP/Themes/ThemeResourcesDark.xaml">
+						<Candidate type="Path">
+							<Value>Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeResourcesDark.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ThemeResourcesHighContrast.xaml" uri="ms-resource://Telerik.UI.Xaml.Map.UWP/Files/Telerik.UI.Xaml.Primitives.UWP/Themes/ThemeResourcesHighContrast.xaml">
+						<Candidate type="Path">
+							<Value>Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeResourcesHighContrast.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ThemeResourcesLight.xaml" uri="ms-resource://Telerik.UI.Xaml.Map.UWP/Files/Telerik.UI.Xaml.Primitives.UWP/Themes/ThemeResourcesLight.xaml">
+						<Candidate type="Path">
+							<Value>Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeResourcesLight.xaml</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

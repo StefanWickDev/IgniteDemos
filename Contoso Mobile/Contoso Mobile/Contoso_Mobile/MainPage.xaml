@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Contoso_Mobile"
+             x:Class="Contoso_Mobile.MainPage"
+            BackgroundColor="Gray">
+
+    <TabbedPage.Children>
+        <ContentPage Title="Employee">
+            <StackLayout>
+                <Image Margin="12" Source="{Binding Employee.ImageLink}" VerticalOptions="Center" HorizontalOptions="Center"/>
+                <Label Margin="12,0,0,0" FontSize="Large" Text="{Binding Employee.Name}" HorizontalOptions="Center"/>
+                <Label Margin="12,0,0,0" FontSize="Default" Text="{Binding Employee.Title}" HorizontalOptions="Center"  TextColor="Cyan"/>
+                <Label Margin="12,0,0,0" FontSize="Default" Text="{Binding Employee.Department, StringFormat='Department: {0}'}" HorizontalOptions="Center"/>
+                <Label Margin="12,0,0,0" FontSize="Default" Text="{Binding Employee.OfficePhone, StringFormat='Phone: {0}'}" HorizontalOptions="Center"/>
+                <Label Margin="12,0,0,0" FontSize="Default" Text="{Binding Employee.Mail, StringFormat='Email: {0}'}" HorizontalOptions="Center"/>
+            </StackLayout>
+        </ContentPage>
+        <ContentPage Title="Managers">
+            <ListView ItemsSource="{Binding Managers}" ItemSelected="DirectsListView_ItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical" >
+                                <StackLayout Orientation="Horizontal">
+                                    <Image Source="{Binding ImageLink}" Margin="6" WidthRequest="48" />
+                                    <Label Text="{Binding Name}" Margin="6" FontSize="14" VerticalOptions="Center"/>
+                                    <Label Text="{Binding Title}" Margin="6" FontSize="14" VerticalOptions="Center" TextColor="Cyan" HorizontalOptions="EndAndExpand"/>
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </ContentPage>
+        <ContentPage Title="Directs">
+            <ListView ItemsSource="{Binding Reports}" ItemSelected="DirectsListView_ItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical" >
+                                <StackLayout Orientation="Horizontal">
+                                    <Image Source="{Binding ImageLink}" Margin="6" WidthRequest="48" />
+                                    <Label Text="{Binding Name}" Margin="6" FontSize="14" VerticalOptions="Center" />
+                                    <Label Text="{Binding Title}" Margin="6" FontSize="14" VerticalOptions="Center" TextColor="Cyan" HorizontalOptions="EndAndExpand"/>
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </ContentPage>
+        <ContentPage Title="Entire Org">
+            <ListView ItemsSource="{Binding Org}" ItemSelected="OrgListView_ItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical" >
+                                <StackLayout Orientation="Horizontal">
+                                    <Image Source="{Binding ImageLink}" Margin="6" WidthRequest="48" />
+                                    <Label Text="{Binding Name}" Margin="6" FontSize="14" VerticalOptions="Center" />
+                                    <Label Text="{Binding Title}" Margin="6" FontSize="14" VerticalOptions="Center" TextColor="Cyan" HorizontalOptions="EndAndExpand"/>
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </ContentPage>
+    </TabbedPage.Children>
+</TabbedPage>

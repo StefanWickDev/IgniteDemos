@@ -1,0 +1,60 @@
+﻿<Page
+    x:Class="NorthwindDemo.AboutPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:NorthwindDemo"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource SystemControlAcrylicWindowBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="48"/>
+            <RowDefinition Height="16"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="10"/>
+        </Grid.RowDefinitions>
+        
+        <TextBlock FontSize="24" HorizontalAlignment="Center"
+                   Grid.Row="0" VerticalAlignment="Center"
+                   Text="Handy links for UWP developers" Foreground="Black" />
+        <ScrollViewer  Grid.Row="2" HorizontalAlignment="Center"
+                       VerticalScrollMode="Auto" VerticalScrollBarVisibility="Auto"
+                       IsVerticalRailEnabled="True" VerticalContentAlignment="Center"
+                       BorderThickness="4" BorderBrush="Black" Background="WhiteSmoke">
+        <StackPanel Orientation="Vertical" >
+            <HyperlinkButton Margin="16" Content="Windows Developer Center" 
+                             FontSize="16"
+                             NavigateUri="https://developer.microsoft.com/en-us/windows" />
+            <HyperlinkButton Margin="16" Content="Guide to UWP apps" 
+                             FontSize="16"
+                             NavigateUri="https://docs.microsoft.com/en-us/windows/uwp/get-started/universal-application-platform-guide" />
+            <HyperlinkButton Margin="16" Content="Fluent Design System"
+                             FontSize="16"
+                             NavigateUri="https://developer.microsoft.com/en-us/windows/apps/design"/>
+            <HyperlinkButton Margin="16" Content="Info about Desktop Bridge"
+                             FontSize="16"
+                             NavigateUri="https://docs.microsoft.com/en-us/windows/uwp/porting/desktop-to-uwp-root"/>
+            <HyperlinkButton Margin="16" Content="UWP Community Toolkit"
+                             FontSize="16"
+                             NavigateUri="https://developer.microsoft.com/en-us/windows/uwp-community-toolkit" />
+            <HyperlinkButton Margin="16" Content="Telerik UI for UWP – Free and Updated XAML Controls"
+                             FontSize="16"
+                             NavigateUri="https://blogs.msdn.microsoft.com/visualstudio/2017/05/30/telerik-ui-for-uwp-free-and-updated-xaml-controls/" />
+            <HyperlinkButton Margin="16" Content="Windows Template Studio"
+                             FontSize="16"
+                             NavigateUri="https://github.com/Microsoft/WindowsTemplateStudio/" />
+            <HyperlinkButton Margin="16" Content="Windows 10 Development Virtual Machines"
+                             FontSize="16"
+                             NavigateUri="https://developer.microsoft.com/en-us/windows/downloads/virtual-machines" />
+            <HyperlinkButton Margin="16" Content="Universal Windows Platform app samples"
+                             FontSize="16"
+                             NavigateUri="https://github.com/Microsoft/Windows-universal-samples" />
+            <HyperlinkButton Margin="16" Content="Windows Mixed Reality"
+                             FontSize="16"
+                             NavigateUri="https://developer.microsoft.com/en-us/windows/mixed-reality" />
+        </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>
+
