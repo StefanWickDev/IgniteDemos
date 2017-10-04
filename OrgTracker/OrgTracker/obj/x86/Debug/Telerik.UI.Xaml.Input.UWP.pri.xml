@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="Telerik.UI.Xaml.Input.UWP" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="Telerik.Core">
+				<ResourceMapSubtree name="Properties">
+					<NamedResource name="default.rd.xml" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Files/Telerik.Core/Properties/default.rd.xml">
+						<Candidate type="Path">
+							<Value>Telerik.Core\Properties\default.rd.xml</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Telerik.UI.Xaml.Input.UWP">
+				<NamedResource name="Telerik.UI.Xaml.Input.UWP.xr.xml" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Files/Telerik.UI.Xaml.Input.UWP/Telerik.UI.Xaml.Input.UWP.xr.xml">
+					<Candidate type="Path">
+						<Value>Telerik.UI.Xaml.Input.UWP\Telerik.UI.Xaml.Input.UWP.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Calendar.xaml" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Files/Telerik.UI.Xaml.Input.UWP/Themes/Calendar.xaml">
+						<Candidate type="Path">
+							<Value>Telerik.UI.Xaml.Input.UWP\Themes\Calendar.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Calendar.xbf" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Files/Telerik.UI.Xaml.Input.UWP/Themes/Calendar.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="CommonResources.xaml" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Files/Telerik.UI.Xaml.Input.UWP/Themes/CommonResources.xaml">
+						<Candidate type="Path">
+							<Value>Telerik.UI.Xaml.Input.UWP\Themes\CommonResources.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="CommonResources.xbf" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Files/Telerik.UI.Xaml.Input.UWP/Themes/CommonResources.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Generic.xaml" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Files/Telerik.UI.Xaml.Input.UWP/Themes/Generic.xaml">
+						<Candidate type="Path">
+							<Value>Telerik.UI.Xaml.Input.UWP\Themes\Generic.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Generic.xbf" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Files/Telerik.UI.Xaml.Input.UWP/Themes/Generic.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Resources.xaml" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Files/Telerik.UI.Xaml.Input.UWP/Themes/Resources.xaml">
+						<Candidate type="Path">
+							<Value>Telerik.UI.Xaml.Input.UWP\Themes\Resources.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Resources.xbf" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Files/Telerik.UI.Xaml.Input.UWP/Themes/Resources.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ThemeResourcesDark.xaml" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Files/Telerik.UI.Xaml.Input.UWP/Themes/ThemeResourcesDark.xaml">
+						<Candidate type="Path">
+							<Value>Telerik.UI.Xaml.Input.UWP\Themes\ThemeResourcesDark.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ThemeResourcesDark.xbf" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Files/Telerik.UI.Xaml.Input.UWP/Themes/ThemeResourcesDark.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ThemeResourcesHighContrast.xaml" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Files/Telerik.UI.Xaml.Input.UWP/Themes/ThemeResourcesHighContrast.xaml">
+						<Candidate type="Path">
+							<Value>Telerik.UI.Xaml.Input.UWP\Themes\ThemeResourcesHighContrast.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ThemeResourcesHighContrast.xbf" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Files/Telerik.UI.Xaml.Input.UWP/Themes/ThemeResourcesHighContrast.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ThemeResourcesLight.xaml" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Files/Telerik.UI.Xaml.Input.UWP/Themes/ThemeResourcesLight.xaml">
+						<Candidate type="Path">
+							<Value>Telerik.UI.Xaml.Input.UWP\Themes\ThemeResourcesLight.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ThemeResourcesLight.xbf" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Files/Telerik.UI.Xaml.Input.UWP/Themes/ThemeResourcesLight.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Telerik.UI.Xaml.Primitives.UWP">
+				<NamedResource name="Telerik.UI.Xaml.Primitives.UWP.xr.xml" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Files/Telerik.UI.Xaml.Primitives.UWP/Telerik.UI.Xaml.Primitives.UWP.xr.xml">
+					<Candidate type="Path">
+						<Value>Telerik.UI.Xaml.Primitives.UWP\Telerik.UI.Xaml.Primitives.UWP.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xaml" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Files/Telerik.UI.Xaml.Primitives.UWP/Themes/Generic.xaml">
+						<Candidate type="Path">
+							<Value>Telerik.UI.Xaml.Primitives.UWP\Themes\Generic.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="HubTilePalette.xaml" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Files/Telerik.UI.Xaml.Primitives.UWP/Themes/HubTilePalette.xaml">
+						<Candidate type="Path">
+							<Value>Telerik.UI.Xaml.Primitives.UWP\Themes\HubTilePalette.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Resources.xaml" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Files/Telerik.UI.Xaml.Primitives.UWP/Themes/Resources.xaml">
+						<Candidate type="Path">
+							<Value>Telerik.UI.Xaml.Primitives.UWP\Themes\Resources.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="SharedResources.xaml" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Files/Telerik.UI.Xaml.Primitives.UWP/Themes/SharedResources.xaml">
+						<Candidate type="Path">
+							<Value>Telerik.UI.Xaml.Primitives.UWP\Themes\SharedResources.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ThemeColorsDark.xaml" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Files/Telerik.UI.Xaml.Primitives.UWP/Themes/ThemeColorsDark.xaml">
+						<Candidate type="Path">
+							<Value>Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeColorsDark.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ThemeColorsHighContrast.xaml" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Files/Telerik.UI.Xaml.Primitives.UWP/Themes/ThemeColorsHighContrast.xaml">
+						<Candidate type="Path">
+							<Value>Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeColorsHighContrast.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ThemeColorsLight.xaml" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Files/Telerik.UI.Xaml.Primitives.UWP/Themes/ThemeColorsLight.xaml">
+						<Candidate type="Path">
+							<Value>Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeColorsLight.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ThemeResourcesDark.xaml" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Files/Telerik.UI.Xaml.Primitives.UWP/Themes/ThemeResourcesDark.xaml">
+						<Candidate type="Path">
+							<Value>Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeResourcesDark.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ThemeResourcesHighContrast.xaml" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Files/Telerik.UI.Xaml.Primitives.UWP/Themes/ThemeResourcesHighContrast.xaml">
+						<Candidate type="Path">
+							<Value>Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeResourcesHighContrast.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ThemeResourcesLight.xaml" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Files/Telerik.UI.Xaml.Primitives.UWP/Themes/ThemeResourcesLight.xaml">
+						<Candidate type="Path">
+							<Value>Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeResourcesLight.xaml</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Telerik.UI.Xaml.Input.UWP">
+			<ResourceMapSubtree name="Neutral">
+				<NamedResource name="AntiqueToolText" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Telerik.UI.Xaml.Input.UWP/Neutral/AntiqueToolText">
+					<Candidate type="String">
+						<Value>Antique</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="AutoCompleteNoResultsFound" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Telerik.UI.Xaml.Input.UWP/Neutral/AutoCompleteNoResultsFound">
+					<Candidate type="String">
+						<Value>No results found</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="BrightnessToolText" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Telerik.UI.Xaml.Input.UWP/Neutral/BrightnessToolText">
+					<Candidate type="String">
+						<Value>Brightness</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="CancelText" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Telerik.UI.Xaml.Input.UWP/Neutral/CancelText">
+					<Candidate type="String">
+						<Value></Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ContrastToolText" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Telerik.UI.Xaml.Input.UWP/Neutral/ContrastToolText">
+					<Candidate type="String">
+						<Value>Contrast</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="CropToolText" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Telerik.UI.Xaml.Input.UWP/Neutral/CropToolText">
+					<Candidate type="String">
+						<Value>Crop</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="DateEmptyContent" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Telerik.UI.Xaml.Input.UWP/Neutral/DateEmptyContent">
+					<Candidate type="String">
+						<Value>Select Date</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="DateSelectorHeader" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Telerik.UI.Xaml.Input.UWP/Neutral/DateSelectorHeader">
+					<Candidate type="String">
+						<Value>Select Date</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="FlipToolText" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Telerik.UI.Xaml.Input.UWP/Neutral/FlipToolText">
+					<Candidate type="String">
+						<Value>Flip</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="GrayscaleToolText" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Telerik.UI.Xaml.Input.UWP/Neutral/GrayscaleToolText">
+					<Candidate type="String">
+						<Value>Grayscale</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="HueToolText" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Telerik.UI.Xaml.Input.UWP/Neutral/HueToolText">
+					<Candidate type="String">
+						<Value>Hue</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LeapYear" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Telerik.UI.Xaml.Input.UWP/Neutral/LeapYear">
+					<Candidate type="String">
+						<Value>Leap Year</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LomoToolText" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Telerik.UI.Xaml.Input.UWP/Neutral/LomoToolText">
+					<Candidate type="String">
+						<Value>Lomo</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MoonlightToolText" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Telerik.UI.Xaml.Input.UWP/Neutral/MoonlightToolText">
+					<Candidate type="String">
+						<Value>Moonlight</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="NegativeToolText" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Telerik.UI.Xaml.Input.UWP/Neutral/NegativeToolText">
+					<Candidate type="String">
+						<Value>Negative</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="NoEffectToolText" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Telerik.UI.Xaml.Input.UWP/Neutral/NoEffectToolText">
+					<Candidate type="String">
+						<Value>NoEffect</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="OKText" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Telerik.UI.Xaml.Input.UWP/Neutral/OKText">
+					<Candidate type="String">
+						<Value></Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PosterizeToolText" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Telerik.UI.Xaml.Input.UWP/Neutral/PosterizeToolText">
+					<Candidate type="String">
+						<Value>Posterize</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="RatingValueString" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Telerik.UI.Xaml.Input.UWP/Neutral/RatingValueString">
+					<Candidate type="String">
+						<Value>Rating, {0} of {1}</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="RotateToolText" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Telerik.UI.Xaml.Input.UWP/Neutral/RotateToolText">
+					<Candidate type="String">
+						<Value/>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SaturationToolText" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Telerik.UI.Xaml.Input.UWP/Neutral/SaturationToolText">
+					<Candidate type="String">
+						<Value>Saturation</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SepiaToolText" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Telerik.UI.Xaml.Input.UWP/Neutral/SepiaToolText">
+					<Candidate type="String">
+						<Value>Sepia</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SharpnessToolText" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Telerik.UI.Xaml.Input.UWP/Neutral/SharpnessToolText">
+					<Candidate type="String">
+						<Value>Sharpness</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="TemperatureToolText" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Telerik.UI.Xaml.Input.UWP/Neutral/TemperatureToolText">
+					<Candidate type="String">
+						<Value>Temperature</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="TimeEmptyContent" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Telerik.UI.Xaml.Input.UWP/Neutral/TimeEmptyContent">
+					<Candidate type="String">
+						<Value>Select Time</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="TimeSelectorHeader" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Telerik.UI.Xaml.Input.UWP/Neutral/TimeSelectorHeader">
+					<Candidate type="String">
+						<Value>Select Time</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="VibranceToolText" uri="ms-resource://Telerik.UI.Xaml.Input.UWP/Telerik.UI.Xaml.Input.UWP/Neutral/VibranceToolText">
+					<Candidate type="String">
+						<Value>Vibrance</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

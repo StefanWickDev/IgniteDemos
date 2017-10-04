@@ -1,0 +1,1666 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-BVS21HV</Machine>
+    <WindowsUser>swick</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>17855StefanWick.OrgTrackerDemo</PackageIdentityName>
+    <PackageIdentityPublisher>CN=1913355A-B6E7-49A5-822D-9E131A0518BE</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\bin\x86\Debug\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\bin\x86\Debug\OrgTracker.exe">
+      <PackagePath>entrypoint\OrgTracker.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
+      <PackagePath>Microsoft.CSharp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ComponentModel.DataAnnotations.dll">
+      <PackagePath>System.ComponentModel.DataAnnotations.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Core.dll">
+      <PackagePath>System.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Net.dll">
+      <PackagePath>System.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Numerics.dll">
+      <PackagePath>System.Numerics.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Runtime.Serialization.dll">
+      <PackagePath>System.Runtime.Serialization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ServiceModel.Web.dll">
+      <PackagePath>System.ServiceModel.Web.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ServiceModel.dll">
+      <PackagePath>System.ServiceModel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Windows.dll">
+      <PackagePath>System.Windows.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.Linq.dll">
+      <PackagePath>System.Xml.Linq.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.Serialization.dll">
+      <PackagePath>System.Xml.Serialization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.dll">
+      <PackagePath>System.Xml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.dll">
+      <PackagePath>System.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\microsoft.visualbasic\10.0.1\lib\netcore50\Microsoft.VisualBasic.dll">
+      <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\runtime.any.system.collections\4.0.11\lib\netcore50\System.Collections.dll">
+      <PackagePath>System.Collections.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\runtime.any.system.diagnostics.tools\4.0.1\lib\netcore50\System.Diagnostics.Tools.dll">
+      <PackagePath>System.Diagnostics.Tools.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\runtime.any.system.diagnostics.tracing\4.1.0\lib\netcore50\System.Diagnostics.Tracing.dll">
+      <PackagePath>System.Diagnostics.Tracing.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\runtime.any.system.globalization\4.0.11\lib\netcore50\System.Globalization.dll">
+      <PackagePath>System.Globalization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\runtime.any.system.globalization.calendars\4.0.1\lib\netcore50\System.Globalization.Calendars.dll">
+      <PackagePath>System.Globalization.Calendars.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\runtime.any.system.io\4.1.0\lib\netcore50\System.IO.dll">
+      <PackagePath>System.IO.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\runtime.any.system.reflection\4.1.0\lib\netcore50\System.Reflection.dll">
+      <PackagePath>System.Reflection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\runtime.any.system.reflection.extensions\4.0.1\lib\netcore50\System.Reflection.Extensions.dll">
+      <PackagePath>System.Reflection.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\runtime.any.system.reflection.primitives\4.0.1\lib\netcore50\System.Reflection.Primitives.dll">
+      <PackagePath>System.Reflection.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\runtime.any.system.resources.resourcemanager\4.0.1\lib\netcore50\System.Resources.ResourceManager.dll">
+      <PackagePath>System.Resources.ResourceManager.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\runtime.any.system.runtime\4.1.0\lib\netcore50\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\runtime.any.system.runtime.handles\4.0.1\lib\netstandard1.3\System.Runtime.Handles.dll">
+      <PackagePath>System.Runtime.Handles.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\runtime.any.system.runtime.interopservices\4.1.0\lib\netcore50\System.Runtime.InteropServices.dll">
+      <PackagePath>System.Runtime.InteropServices.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\runtime.any.system.text.encoding\4.0.11\lib\netcore50\System.Text.Encoding.dll">
+      <PackagePath>System.Text.Encoding.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\runtime.any.system.text.encoding.extensions\4.0.11\lib\netcore50\System.Text.Encoding.Extensions.dll">
+      <PackagePath>System.Text.Encoding.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\runtime.any.system.threading.tasks\4.0.11\lib\netcore50\System.Threading.Tasks.dll">
+      <PackagePath>System.Threading.Tasks.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\runtime.any.system.threading.timer\4.0.1\lib\netcore50\System.Threading.Timer.dll">
+      <PackagePath>System.Threading.Timer.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\runtime.win.microsoft.win32.primitives\4.0.1\runtimes\win\lib\netstandard1.3\Microsoft.Win32.Primitives.dll">
+      <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\runtime.win.system.diagnostics.debug\4.0.11\runtimes\win\lib\netcore50\System.Diagnostics.Debug.dll">
+      <PackagePath>System.Diagnostics.Debug.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\runtime.win.system.io.filesystem\4.0.1\runtimes\win\lib\netcore50\System.IO.FileSystem.dll">
+      <PackagePath>System.IO.FileSystem.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\runtime.win.system.net.primitives\4.0.11\runtimes\win\lib\netcore50\System.Net.Primitives.dll">
+      <PackagePath>System.Net.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\runtime.win.system.net.sockets\4.1.0\runtimes\win\lib\netcore50\System.Net.Sockets.dll">
+      <PackagePath>System.Net.Sockets.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\runtime.win.system.runtime.extensions\4.1.0\runtimes\win\lib\netcore50\System.Runtime.Extensions.dll">
+      <PackagePath>System.Runtime.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\runtime.win7-x86.microsoft.netcore.jit\1.0.3\runtimes\win7-x86\native\clrjit.dll">
+      <PackagePath>clrjit.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\runtime.win7-x86.runtime.native.system.io.compression\4.0.1\runtimes\win7-x86\native\clrcompression.dll">
+      <PackagePath>clrcompression.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\runtime.win7.system.private.uri\4.0.2\runtimes\win\lib\netcore50\System.Private.Uri.dll">
+      <PackagePath>System.Private.Uri.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.appcontext\4.1.0\lib\netcore50\System.AppContext.dll">
+      <PackagePath>System.AppContext.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.buffers\4.0.0\lib\netstandard1.1\System.Buffers.dll">
+      <PackagePath>System.Buffers.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.collections.concurrent\4.0.12\lib\netcore50\System.Collections.Concurrent.dll">
+      <PackagePath>System.Collections.Concurrent.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.collections.immutable\1.2.0\lib\portable-net45+win8+wp8+wpa81\System.Collections.Immutable.dll">
+      <PackagePath>System.Collections.Immutable.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.collections.nongeneric\4.0.1\lib\netstandard1.3\System.Collections.NonGeneric.dll">
+      <PackagePath>System.Collections.NonGeneric.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.collections.specialized\4.0.1\lib\netstandard1.3\System.Collections.Specialized.dll">
+      <PackagePath>System.Collections.Specialized.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.componentmodel\4.0.1\lib\netcore50\System.ComponentModel.dll">
+      <PackagePath>System.ComponentModel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.componentmodel.annotations\4.1.0\lib\netcore50\System.ComponentModel.Annotations.dll">
+      <PackagePath>System.ComponentModel.Annotations.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.componentmodel.eventbasedasync\4.0.11\lib\netcore50\System.ComponentModel.EventBasedAsync.dll">
+      <PackagePath>System.ComponentModel.EventBasedAsync.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.data.common\4.1.0\lib\netstandard1.2\System.Data.Common.dll">
+      <PackagePath>System.Data.Common.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.diagnostics.contracts\4.0.1\lib\netcore50\System.Diagnostics.Contracts.dll">
+      <PackagePath>System.Diagnostics.Contracts.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.diagnostics.diagnosticsource\4.0.0\lib\netstandard1.3\System.Diagnostics.DiagnosticSource.dll">
+      <PackagePath>System.Diagnostics.DiagnosticSource.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.diagnostics.stacktrace\4.0.2\lib\netstandard1.3\System.Diagnostics.StackTrace.dll">
+      <PackagePath>System.Diagnostics.StackTrace.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.dynamic.runtime\4.0.11\lib\netcore50\System.Dynamic.Runtime.dll">
+      <PackagePath>System.Dynamic.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.globalization.extensions\4.0.1\runtimes\win\lib\netstandard1.3\System.Globalization.Extensions.dll">
+      <PackagePath>System.Globalization.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.io.compression\4.1.1\runtimes\win\lib\netstandard1.3\System.IO.Compression.dll">
+      <PackagePath>System.IO.Compression.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.io.compression.zipfile\4.0.1\lib\netstandard1.3\System.IO.Compression.ZipFile.dll">
+      <PackagePath>System.IO.Compression.ZipFile.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.io.filesystem.primitives\4.0.1\lib\netstandard1.3\System.IO.FileSystem.Primitives.dll">
+      <PackagePath>System.IO.FileSystem.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.io.isolatedstorage\4.0.1\lib\netcore50\System.IO.IsolatedStorage.dll">
+      <PackagePath>System.IO.IsolatedStorage.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.io.unmanagedmemorystream\4.0.1\lib\netstandard1.3\System.IO.UnmanagedMemoryStream.dll">
+      <PackagePath>System.IO.UnmanagedMemoryStream.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.linq\4.1.0\lib\netcore50\System.Linq.dll">
+      <PackagePath>System.Linq.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.linq.expressions\4.1.0\lib\netcore50\System.Linq.Expressions.dll">
+      <PackagePath>System.Linq.Expressions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.linq.parallel\4.0.1\lib\netcore50\System.Linq.Parallel.dll">
+      <PackagePath>System.Linq.Parallel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.linq.queryable\4.0.1\lib\netcore50\System.Linq.Queryable.dll">
+      <PackagePath>System.Linq.Queryable.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.net.http\4.1.0\runtimes\win\lib\netcore50\System.Net.Http.dll">
+      <PackagePath>System.Net.Http.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.net.http.rtc\4.0.1\runtimes\win\lib\netcore50\System.Net.Http.Rtc.dll">
+      <PackagePath>System.Net.Http.Rtc.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.net.nameresolution\4.0.0\runtimes\win\lib\netcore50\System.Net.NameResolution.dll">
+      <PackagePath>System.Net.NameResolution.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.net.networkinformation\4.1.0\runtimes\win\lib\netcore50\System.Net.NetworkInformation.dll">
+      <PackagePath>System.Net.NetworkInformation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.net.requests\4.0.11\runtimes\win\lib\netstandard1.3\System.Net.Requests.dll">
+      <PackagePath>System.Net.Requests.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.net.webheadercollection\4.0.1\lib\netstandard1.3\System.Net.WebHeaderCollection.dll">
+      <PackagePath>System.Net.WebHeaderCollection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.net.websockets\4.0.0\lib\netstandard1.3\System.Net.WebSockets.dll">
+      <PackagePath>System.Net.WebSockets.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.net.websockets.client\4.0.0\runtimes\win\lib\netcore50\System.Net.WebSockets.Client.dll">
+      <PackagePath>System.Net.WebSockets.Client.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.numerics.vectors\4.1.1\lib\portable-net45+win8+wp8+wpa81\System.Numerics.Vectors.dll">
+      <PackagePath>System.Numerics.Vectors.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.numerics.vectors.windowsruntime\4.0.1\lib\uap10.0\System.Numerics.Vectors.WindowsRuntime.dll">
+      <PackagePath>System.Numerics.Vectors.WindowsRuntime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.objectmodel\4.0.12\lib\netcore50\System.ObjectModel.dll">
+      <PackagePath>System.ObjectModel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.private.datacontractserialization\4.1.2\lib\netstandard1.3\System.Private.DataContractSerialization.dll">
+      <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.private.servicemodel\4.1.0\runtimes\win7\lib\netcore50\System.Private.ServiceModel.dll">
+      <PackagePath>System.Private.ServiceModel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.reflection.context\4.0.1\lib\netcore50\System.Reflection.Context.dll">
+      <PackagePath>System.Reflection.Context.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.reflection.dispatchproxy\4.0.1\lib\netstandard1.3\System.Reflection.DispatchProxy.dll">
+      <PackagePath>System.Reflection.DispatchProxy.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.reflection.emit\4.0.1\lib\netcore50\System.Reflection.Emit.dll">
+      <PackagePath>System.Reflection.Emit.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.reflection.emit.ilgeneration\4.0.1\lib\netcore50\System.Reflection.Emit.ILGeneration.dll">
+      <PackagePath>System.Reflection.Emit.ILGeneration.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.reflection.emit.lightweight\4.0.1\lib\netcore50\System.Reflection.Emit.Lightweight.dll">
+      <PackagePath>System.Reflection.Emit.Lightweight.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.reflection.metadata\1.3.0\lib\portable-net45+win8\System.Reflection.Metadata.dll">
+      <PackagePath>System.Reflection.Metadata.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.reflection.typeextensions\4.1.0\lib\netcore50\System.Reflection.TypeExtensions.dll">
+      <PackagePath>System.Reflection.TypeExtensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.runtime.interopservices.windowsruntime\4.0.1\lib\netcore50\System.Runtime.InteropServices.WindowsRuntime.dll">
+      <PackagePath>System.Runtime.InteropServices.WindowsRuntime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.runtime.numerics\4.0.1\lib\netcore50\System.Runtime.Numerics.dll">
+      <PackagePath>System.Runtime.Numerics.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.runtime.serialization.json\4.0.3\lib\netcore50\System.Runtime.Serialization.Json.dll">
+      <PackagePath>System.Runtime.Serialization.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.runtime.serialization.primitives\4.1.1\lib\netcore50\System.Runtime.Serialization.Primitives.dll">
+      <PackagePath>System.Runtime.Serialization.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.runtime.serialization.xml\4.1.2\lib\netcore50\System.Runtime.Serialization.Xml.dll">
+      <PackagePath>System.Runtime.Serialization.Xml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.runtime.windowsruntime\4.0.11\runtimes\win8\lib\netstandard1.3\System.Runtime.WindowsRuntime.dll">
+      <PackagePath>System.Runtime.WindowsRuntime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.runtime.windowsruntime.ui.xaml\4.0.1\runtimes\win8\lib\netstandard1.3\System.Runtime.WindowsRuntime.UI.Xaml.dll">
+      <PackagePath>System.Runtime.WindowsRuntime.UI.Xaml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.security.claims\4.0.1\lib\netstandard1.3\System.Security.Claims.dll">
+      <PackagePath>System.Security.Claims.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.security.cryptography.algorithms\4.2.0\runtimes\win\lib\netcore50\System.Security.Cryptography.Algorithms.dll">
+      <PackagePath>System.Security.Cryptography.Algorithms.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.security.cryptography.cng\4.2.0\runtimes\win\lib\netstandard1.4\System.Security.Cryptography.Cng.dll">
+      <PackagePath>System.Security.Cryptography.Cng.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.security.cryptography.encoding\4.0.0\runtimes\win\lib\netstandard1.3\System.Security.Cryptography.Encoding.dll">
+      <PackagePath>System.Security.Cryptography.Encoding.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.security.cryptography.primitives\4.0.0\lib\netstandard1.3\System.Security.Cryptography.Primitives.dll">
+      <PackagePath>System.Security.Cryptography.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.security.cryptography.x509certificates\4.1.0\runtimes\win\lib\netcore50\System.Security.Cryptography.X509Certificates.dll">
+      <PackagePath>System.Security.Cryptography.X509Certificates.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.security.principal\4.0.1\lib\netcore50\System.Security.Principal.dll">
+      <PackagePath>System.Security.Principal.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.servicemodel.duplex\4.0.1\lib\netcore50\System.ServiceModel.Duplex.dll">
+      <PackagePath>System.ServiceModel.Duplex.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.servicemodel.http\4.1.0\lib\netcore50\System.ServiceModel.Http.dll">
+      <PackagePath>System.ServiceModel.Http.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.servicemodel.nettcp\4.1.0\lib\netcore50\System.ServiceModel.NetTcp.dll">
+      <PackagePath>System.ServiceModel.NetTcp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.servicemodel.primitives\4.1.0\lib\netcore50\System.ServiceModel.Primitives.dll">
+      <PackagePath>System.ServiceModel.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.servicemodel.security\4.0.1\lib\netcore50\System.ServiceModel.Security.dll">
+      <PackagePath>System.ServiceModel.Security.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.text.encoding.codepages\4.0.1\runtimes\win\lib\netstandard1.3\System.Text.Encoding.CodePages.dll">
+      <PackagePath>System.Text.Encoding.CodePages.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.text.regularexpressions\4.1.0\lib\netcore50\System.Text.RegularExpressions.dll">
+      <PackagePath>System.Text.RegularExpressions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.threading\4.0.11\lib\netcore50\System.Threading.dll">
+      <PackagePath>System.Threading.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.threading.overlapped\4.0.1\runtimes\win\lib\netcore50\System.Threading.Overlapped.dll">
+      <PackagePath>System.Threading.Overlapped.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.threading.tasks.dataflow\4.6.0\lib\netstandard1.1\System.Threading.Tasks.Dataflow.dll">
+      <PackagePath>System.Threading.Tasks.Dataflow.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.threading.tasks.extensions\4.0.0\lib\portable-net45+win8+wp8+wpa81\System.Threading.Tasks.Extensions.dll">
+      <PackagePath>System.Threading.Tasks.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.threading.tasks.parallel\4.0.1\lib\netcore50\System.Threading.Tasks.Parallel.dll">
+      <PackagePath>System.Threading.Tasks.Parallel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.xml.readerwriter\4.0.11\lib\netcore50\System.Xml.ReaderWriter.dll">
+      <PackagePath>System.Xml.ReaderWriter.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.xml.xdocument\4.0.11\lib\netcore50\System.Xml.XDocument.dll">
+      <PackagePath>System.Xml.XDocument.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.xml.xmldocument\4.0.1\lib\netstandard1.3\System.Xml.XmlDocument.dll">
+      <PackagePath>System.Xml.XmlDocument.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\system.xml.xmlserializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
+      <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.Core.dll">
+      <PackagePath>Telerik.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.Data.dll">
+      <PackagePath>Telerik.Data.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.Geospatial.UWP.dll">
+      <PackagePath>Telerik.Geospatial.UWP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Chart.UWP.dll">
+      <PackagePath>Telerik.UI.Xaml.Chart.UWP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Controls.Data.UWP.dll">
+      <PackagePath>Telerik.UI.Xaml.Controls.Data.UWP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.DataVisualization.UWP.dll">
+      <PackagePath>Telerik.UI.Xaml.DataVisualization.UWP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP.dll">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Input.UWP.dll">
+      <PackagePath>Telerik.UI.Xaml.Input.UWP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Primitives.UWP.dll">
+      <PackagePath>Telerik.UI.Xaml.Primitives.UWP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\build\uap10.0\..\..\lib\uap10.0\x86\Telerik.UI.Xaml.Map.UWP.dll">
+      <PackagePath>Telerik.UI.Xaml.Map.UWP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\build\uap10.0\..\..\lib\uap10.0\x86\Telerik.UI.Drawing.dll">
+      <PackagePath>Telerik.UI.Drawing.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\build\uap10.0\..\..\lib\uap10.0\x86\Telerik.UI.Drawing.winmd">
+      <PackagePath>Telerik.UI.Drawing.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\aaron_painter.jpg">
+      <PackagePath>Assets\Contoso\aaron_painter.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\adam_barr.jpg">
+      <PackagePath>Assets\Contoso\adam_barr.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\alan_brewer.jpg">
+      <PackagePath>Assets\Contoso\alan_brewer.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\alan_steiner.jpg">
+      <PackagePath>Assets\Contoso\alan_steiner.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\alexandre_silva.jpg">
+      <PackagePath>Assets\Contoso\alexandre_silva.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\alfons_parovszky.jpg">
+      <PackagePath>Assets\Contoso\alfons_parovszky.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\alicia_thomber.jpg">
+      <PackagePath>Assets\Contoso\alicia_thomber.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\alisa_lawyer.jpg">
+      <PackagePath>Assets\Contoso\alisa_lawyer.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\allan_guinot.jpg">
+      <PackagePath>Assets\Contoso\allan_guinot.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\allison_brown.jpg">
+      <PackagePath>Assets\Contoso\allison_brown.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\amy_alberts.jpg">
+      <PackagePath>Assets\Contoso\amy_alberts.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\anders_madsen.jpg">
+      <PackagePath>Assets\Contoso\anders_madsen.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\andrea_dunker.jpg">
+      <PackagePath>Assets\Contoso\andrea_dunker.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\andrew_ma.jpg">
+      <PackagePath>Assets\Contoso\andrew_ma.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\andy_jacobs.jpg">
+      <PackagePath>Assets\Contoso\andy_jacobs.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\anna_lidman.jpg">
+      <PackagePath>Assets\Contoso\anna_lidman.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\annelie_zubar.jpg">
+      <PackagePath>Assets\Contoso\annelie_zubar.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\anne_weiler.jpg">
+      <PackagePath>Assets\Contoso\anne_weiler.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\anu_deshpande.jpg">
+      <PackagePath>Assets\Contoso\anu_deshpande.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\april_stewart.jpg">
+      <PackagePath>Assets\Contoso\april_stewart.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\ari_suominen.jpg">
+      <PackagePath>Assets\Contoso\ari_suominen.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\arlene_huff.jpg">
+      <PackagePath>Assets\Contoso\arlene_huff.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\arthur_yasinski.jpg">
+      <PackagePath>Assets\Contoso\arthur_yasinski.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\arturo_lopez.jpg">
+      <PackagePath>Assets\Contoso\arturo_lopez.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\ayla_kol.jpg">
+      <PackagePath>Assets\Contoso\ayla_kol.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\barry_johnson.jpg">
+      <PackagePath>Assets\Contoso\barry_johnson.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\ben_spain.jpg">
+      <PackagePath>Assets\Contoso\ben_spain.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\bernard_tham.jpg">
+      <PackagePath>Assets\Contoso\bernard_tham.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\blaine_dockter.jpg">
+      <PackagePath>Assets\Contoso\blaine_dockter.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\brad_sutton.jpg">
+      <PackagePath>Assets\Contoso\brad_sutton.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\brian_cox.jpg">
+      <PackagePath>Assets\Contoso\brian_cox.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\brian_groth.jpg">
+      <PackagePath>Assets\Contoso\brian_groth.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\cari_drummelle.jpg">
+      <PackagePath>Assets\Contoso\cari_drummelle.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\carlos_grilo.jpg">
+      <PackagePath>Assets\Contoso\carlos_grilo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\carol_troup.jpg">
+      <PackagePath>Assets\Contoso\carol_troup.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\cassie_hicks.jpg">
+      <PackagePath>Assets\Contoso\cassie_hicks.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\cesar_garcia.jpg">
+      <PackagePath>Assets\Contoso\cesar_garcia.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\chase_carpenter.jpg">
+      <PackagePath>Assets\Contoso\chase_carpenter.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\chen_yang.jpg">
+      <PackagePath>Assets\Contoso\chen_yang.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\christa_geller.jpg">
+      <PackagePath>Assets\Contoso\christa_geller.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\christian_jene.jpg">
+      <PackagePath>Assets\Contoso\christian_jene.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\christian_rytt.jpg">
+      <PackagePath>Assets\Contoso\christian_rytt.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\christine_koch.jpg">
+      <PackagePath>Assets\Contoso\christine_koch.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\chris_barry.jpg">
+      <PackagePath>Assets\Contoso\chris_barry.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\chris_f._johnson.jpg">
+      <PackagePath>Assets\Contoso\chris_f._johnson.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\chris_gray.jpg">
+      <PackagePath>Assets\Contoso\chris_gray.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\chris_johnson.jpg">
+      <PackagePath>Assets\Contoso\chris_johnson.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\chris_mcgurk.jpg">
+      <PackagePath>Assets\Contoso\chris_mcgurk.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\chris_norred.jpg">
+      <PackagePath>Assets\Contoso\chris_norred.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\cliff_diddier.jpg">
+      <PackagePath>Assets\Contoso\cliff_diddier.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\corinna_bolender.jpg">
+      <PackagePath>Assets\Contoso\corinna_bolender.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\daniel_durrer.jpg">
+      <PackagePath>Assets\Contoso\daniel_durrer.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\danni_ortman.jpg">
+      <PackagePath>Assets\Contoso\danni_ortman.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\dan_bacon.jpg">
+      <PackagePath>Assets\Contoso\dan_bacon.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\dan_hough.jpg">
+      <PackagePath>Assets\Contoso\dan_hough.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\dan_jump.jpg">
+      <PackagePath>Assets\Contoso\dan_jump.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\dan_park.jpg">
+      <PackagePath>Assets\Contoso\dan_park.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\dave_natsuhara.jpg">
+      <PackagePath>Assets\Contoso\dave_natsuhara.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\david_bossard.jpg">
+      <PackagePath>Assets\Contoso\david_bossard.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\david_bradley.jpg">
+      <PackagePath>Assets\Contoso\david_bradley.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\david_derwin.jpg">
+      <PackagePath>Assets\Contoso\david_derwin.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\david_hamilton.jpg">
+      <PackagePath>Assets\Contoso\david_hamilton.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\david_maman.jpg">
+      <PackagePath>Assets\Contoso\david_maman.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\david_simpson.jpg">
+      <PackagePath>Assets\Contoso\david_simpson.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\david_so.jpg">
+      <PackagePath>Assets\Contoso\david_so.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\david_wright.jpg">
+      <PackagePath>Assets\Contoso\david_wright.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\david_zazzo.jpg">
+      <PackagePath>Assets\Contoso\david_zazzo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\denis_dehenne.jpg">
+      <PackagePath>Assets\Contoso\denis_dehenne.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\diane_glimp.jpg">
+      <PackagePath>Assets\Contoso\diane_glimp.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\diane_prescott.jpg">
+      <PackagePath>Assets\Contoso\diane_prescott.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\diane_tibbot.jpg">
+      <PackagePath>Assets\Contoso\diane_tibbot.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\dominik_paiha.jpg">
+      <PackagePath>Assets\Contoso\dominik_paiha.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\don_funk.jpg">
+      <PackagePath>Assets\Contoso\don_funk.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\don_hall.jpg">
+      <PackagePath>Assets\Contoso\don_hall.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\dough_mahugh.jpg">
+      <PackagePath>Assets\Contoso\dough_mahugh.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\eduard_dell.jpg">
+      <PackagePath>Assets\Contoso\eduard_dell.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\elizabeth_andersen.jpg">
+      <PackagePath>Assets\Contoso\elizabeth_andersen.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\ellen_adams.jpg">
+      <PackagePath>Assets\Contoso\ellen_adams.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\eran_harel.jpg">
+      <PackagePath>Assets\Contoso\eran_harel.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\eric_gruber.jpg">
+      <PackagePath>Assets\Contoso\eric_gruber.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\erika_cheley.jpg">
+      <PackagePath>Assets\Contoso\erika_cheley.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\erik_andersen.jpg">
+      <PackagePath>Assets\Contoso\erik_andersen.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\erik_gubbels.jpg">
+      <PackagePath>Assets\Contoso\erik_gubbels.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\erwin_zischka.jpg">
+      <PackagePath>Assets\Contoso\erwin_zischka.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\esther_valle.jpg">
+      <PackagePath>Assets\Contoso\esther_valle.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\euan_garden.jpg">
+      <PackagePath>Assets\Contoso\euan_garden.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\fabrice_canel.jpg">
+      <PackagePath>Assets\Contoso\fabrice_canel.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\felipe_martins.jpg">
+      <PackagePath>Assets\Contoso\felipe_martins.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\frank_martinez.jpg">
+      <PackagePath>Assets\Contoso\frank_martinez.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\frank_miller.jpg">
+      <PackagePath>Assets\Contoso\frank_miller.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\gareth_chan.jpg">
+      <PackagePath>Assets\Contoso\gareth_chan.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\garth_fort.jpg">
+      <PackagePath>Assets\Contoso\garth_fort.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\gina_boyer.jpg">
+      <PackagePath>Assets\Contoso\gina_boyer.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\greg_winston.jpg">
+      <PackagePath>Assets\Contoso\greg_winston.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\guido_pica.jpg">
+      <PackagePath>Assets\Contoso\guido_pica.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\hans_gufler.jpg">
+      <PackagePath>Assets\Contoso\hans_gufler.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\hazem_abolrous.jpg">
+      <PackagePath>Assets\Contoso\hazem_abolrous.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\heinrich_fischer.jpg">
+      <PackagePath>Assets\Contoso\heinrich_fischer.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\howard_gonzalez.jpg">
+      <PackagePath>Assets\Contoso\howard_gonzalez.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\hugo_garcia.jpg">
+      <PackagePath>Assets\Contoso\hugo_garcia.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\humberto_acevedo.jpg">
+      <PackagePath>Assets\Contoso\humberto_acevedo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\ian_tien.jpg">
+      <PackagePath>Assets\Contoso\ian_tien.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\iben_thorell.jpg">
+      <PackagePath>Assets\Contoso\iben_thorell.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\idan_rubin.jpg">
+      <PackagePath>Assets\Contoso\idan_rubin.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\ivo_salmre.jpg">
+      <PackagePath>Assets\Contoso\ivo_salmre.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\jack_creasey.jpg">
+      <PackagePath>Assets\Contoso\jack_creasey.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\jaka_stele.jpg">
+      <PackagePath>Assets\Contoso\jaka_stele.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\james_wittrell.jpg">
+      <PackagePath>Assets\Contoso\james_wittrell.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\jamie_reding.jpg">
+      <PackagePath>Assets\Contoso\jamie_reding.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\jan_kotas.jpg">
+      <PackagePath>Assets\Contoso\jan_kotas.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\jason_carlson.jpg">
+      <PackagePath>Assets\Contoso\jason_carlson.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\jeff_hay.jpg">
+      <PackagePath>Assets\Contoso\jeff_hay.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\jeff_williams.jpg">
+      <PackagePath>Assets\Contoso\jeff_williams.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\jelle_visser.jpg">
+      <PackagePath>Assets\Contoso\jelle_visser.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\jenni_merrifield.jpg">
+      <PackagePath>Assets\Contoso\jenni_merrifield.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\jenny_lysaker.jpg">
+      <PackagePath>Assets\Contoso\jenny_lysaker.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\jeremy_los.jpg">
+      <PackagePath>Assets\Contoso\jeremy_los.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\jesper_aaberg.jpg">
+      <PackagePath>Assets\Contoso\jesper_aaberg.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\Jessica Arnold.jpg">
+      <PackagePath>Assets\Contoso\Jessica Arnold.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\jessica_arnold.jpg">
+      <PackagePath>Assets\Contoso\jessica_arnold.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\jesus_escolar.jpg">
+      <PackagePath>Assets\Contoso\jesus_escolar.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\jill_frank.jpg">
+      <PackagePath>Assets\Contoso\jill_frank.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\jim_corbin.jpg">
+      <PackagePath>Assets\Contoso\jim_corbin.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\jim_daly.jpg">
+      <PackagePath>Assets\Contoso\jim_daly.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\jim_lucey.jpg">
+      <PackagePath>Assets\Contoso\jim_lucey.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\joel_lachance.jpg">
+      <PackagePath>Assets\Contoso\joel_lachance.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\john_evans.jpg">
+      <PackagePath>Assets\Contoso\john_evans.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\john_ganio.jpg">
+      <PackagePath>Assets\Contoso\john_ganio.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\john_john.jpg">
+      <PackagePath>Assets\Contoso\john_john.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\john_kane.jpg">
+      <PackagePath>Assets\Contoso\john_kane.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\john_yokum.jpg">
+      <PackagePath>Assets\Contoso\john_yokum.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\jon_grande.jpg">
+      <PackagePath>Assets\Contoso\jon_grande.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\jon_jaffe.jpg">
+      <PackagePath>Assets\Contoso\jon_jaffe.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\jordao_moreno.jpg">
+      <PackagePath>Assets\Contoso\jordao_moreno.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\jose_saraiva.jpg">
+      <PackagePath>Assets\Contoso\jose_saraiva.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\josh_edwards.jpg">
+      <PackagePath>Assets\Contoso\josh_edwards.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\jo_berry.jpg">
+      <PackagePath>Assets\Contoso\jo_berry.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\julian_isla.jpg">
+      <PackagePath>Assets\Contoso\julian_isla.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\jun_cao.jpg">
+      <PackagePath>Assets\Contoso\jun_cao.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\justin_thorp.jpg">
+      <PackagePath>Assets\Contoso\justin_thorp.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\kai_axford.jpg">
+      <PackagePath>Assets\Contoso\kai_axford.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\karen_berg.jpg">
+      <PackagePath>Assets\Contoso\karen_berg.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\karim_manar.jpg">
+      <PackagePath>Assets\Contoso\karim_manar.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\karin_lamb.jpg">
+      <PackagePath>Assets\Contoso\karin_lamb.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\kari_furse.jpg">
+      <PackagePath>Assets\Contoso\kari_furse.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\kate_taneyhill.jpg">
+      <PackagePath>Assets\Contoso\kate_taneyhill.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\keith_dishmo.jpg">
+      <PackagePath>Assets\Contoso\keith_dishmo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\kelly_krout.jpg">
+      <PackagePath>Assets\Contoso\kelly_krout.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\kelly_weadock.jpg">
+      <PackagePath>Assets\Contoso\kelly_weadock.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\kenneth_cools.jpg">
+      <PackagePath>Assets\Contoso\kenneth_cools.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\ken_ewert.jpg">
+      <PackagePath>Assets\Contoso\ken_ewert.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\ken_malcolmson.jpg">
+      <PackagePath>Assets\Contoso\ken_malcolmson.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\kerim_hanif.jpg">
+      <PackagePath>Assets\Contoso\kerim_hanif.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\kevin_kennedy.jpg">
+      <PackagePath>Assets\Contoso\kevin_kennedy.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\kevin_verboort.jpg">
+      <PackagePath>Assets\Contoso\kevin_verboort.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\kim_abercrombie.jpg">
+      <PackagePath>Assets\Contoso\kim_abercrombie.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\kim_ralls.jpg">
+      <PackagePath>Assets\Contoso\kim_ralls.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\kirk_nason.jpg">
+      <PackagePath>Assets\Contoso\kirk_nason.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\Kris Johnsen.jpg">
+      <PackagePath>Assets\Contoso\Kris Johnsen.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\kris_johnsen.jpg">
+      <PackagePath>Assets\Contoso\kris_johnsen.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\larry_zhang.jpg">
+      <PackagePath>Assets\Contoso\larry_zhang.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\lars_hansson.jpg">
+      <PackagePath>Assets\Contoso\lars_hansson.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\lene_aalling.jpg">
+      <PackagePath>Assets\Contoso\lene_aalling.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\lina_abola.jpg">
+      <PackagePath>Assets\Contoso\lina_abola.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\lisa_andrews.jpg">
+      <PackagePath>Assets\Contoso\lisa_andrews.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\lisa_miller.jpg">
+      <PackagePath>Assets\Contoso\lisa_miller.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\lolan_song.jpg">
+      <PackagePath>Assets\Contoso\lolan_song.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\lori_kane.jpg">
+      <PackagePath>Assets\Contoso\lori_kane.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\lorraine_nay.jpg">
+      <PackagePath>Assets\Contoso\lorraine_nay.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\lubor_kollar.jpg">
+      <PackagePath>Assets\Contoso\lubor_kollar.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\luca_dellamore.jpg">
+      <PackagePath>Assets\Contoso\luca_dellamore.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\luis_bonifaz.jpg">
+      <PackagePath>Assets\Contoso\luis_bonifaz.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\lukas_keller.jpg">
+      <PackagePath>Assets\Contoso\lukas_keller.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\luka_abrus.jpg">
+      <PackagePath>Assets\Contoso\luka_abrus.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\magnus_hedlund.jpg">
+      <PackagePath>Assets\Contoso\magnus_hedlund.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\manish_chopra.jpg">
+      <PackagePath>Assets\Contoso\manish_chopra.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\manueal_machado.jpg">
+      <PackagePath>Assets\Contoso\manueal_machado.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\marcelo_truffat.jpg">
+      <PackagePath>Assets\Contoso\marcelo_truffat.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\marc_faerber.jpg">
+      <PackagePath>Assets\Contoso\marc_faerber.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\margaret_au.jpg">
+      <PackagePath>Assets\Contoso\margaret_au.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\marie_dubois.jpg">
+      <PackagePath>Assets\Contoso\marie_dubois.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\marko_zajc.jpg">
+      <PackagePath>Assets\Contoso\marko_zajc.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\mark_hanson.jpg">
+      <PackagePath>Assets\Contoso\mark_hanson.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\maru_subrmani.jpg">
+      <PackagePath>Assets\Contoso\maru_subrmani.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\mary_cha.jpg">
+      <PackagePath>Assets\Contoso\mary_cha.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\matt_hink.jpg">
+      <PackagePath>Assets\Contoso\matt_hink.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\maurice_taylor.jpg">
+      <PackagePath>Assets\Contoso\maurice_taylor.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\mchiel_wories.jpg">
+      <PackagePath>Assets\Contoso\mchiel_wories.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\merav_sror.jpg">
+      <PackagePath>Assets\Contoso\merav_sror.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\michael_ludwig.jpg">
+      <PackagePath>Assets\Contoso\michael_ludwig.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\michael_lund.jpg">
+      <PackagePath>Assets\Contoso\michael_lund.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\michael_mainer.jpg">
+      <PackagePath>Assets\Contoso\michael_mainer.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\michael_ovesen.jpg">
+      <PackagePath>Assets\Contoso\michael_ovesen.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\michael_sullivan.jpg">
+      <PackagePath>Assets\Contoso\michael_sullivan.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\michael_zeman.jpg">
+      <PackagePath>Assets\Contoso\michael_zeman.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\michelle_fredette.jpg">
+      <PackagePath>Assets\Contoso\michelle_fredette.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\michiko_osada.jpg">
+      <PackagePath>Assets\Contoso\michiko_osada.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\mike_nash.jpg">
+      <PackagePath>Assets\Contoso\mike_nash.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\mike_ray.jpg">
+      <PackagePath>Assets\Contoso\mike_ray.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\mike_tiano.jpg">
+      <PackagePath>Assets\Contoso\mike_tiano.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\molly_clark.jpg">
+      <PackagePath>Assets\Contoso\molly_clark.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\nate_sun.jpg">
+      <PackagePath>Assets\Contoso\nate_sun.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\ned_friend.jpg">
+      <PackagePath>Assets\Contoso\ned_friend.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\neil_orint.jpg">
+      <PackagePath>Assets\Contoso\neil_orint.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\nuno_farinha.jpg">
+      <PackagePath>Assets\Contoso\nuno_farinha.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\nuria_gonzalez.jpg">
+      <PackagePath>Assets\Contoso\nuria_gonzalez.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\olivier_fontana.jpg">
+      <PackagePath>Assets\Contoso\olivier_fontana.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\parna_khot.jpg">
+      <PackagePath>Assets\Contoso\parna_khot.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\patricia_doyle.jpg">
+      <PackagePath>Assets\Contoso\patricia_doyle.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\paul_duffy.jpg">
+      <PackagePath>Assets\Contoso\paul_duffy.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\pavel_simsa.jpg">
+      <PackagePath>Assets\Contoso\pavel_simsa.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\peder_thode.jpg">
+      <PackagePath>Assets\Contoso\peder_thode.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\peter_saddow.jpg">
+      <PackagePath>Assets\Contoso\peter_saddow.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\phyllis_harris.jpg">
+      <PackagePath>Assets\Contoso\phyllis_harris.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\pieter_wycoff.jpg">
+      <PackagePath>Assets\Contoso\pieter_wycoff.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\qiong_wu.jpg">
+      <PackagePath>Assets\Contoso\qiong_wu.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\ray_chow.jpg">
+      <PackagePath>Assets\Contoso\ray_chow.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\ray_mohrman.jpg">
+      <PackagePath>Assets\Contoso\ray_mohrman.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\reina_cabatana.jpg">
+      <PackagePath>Assets\Contoso\reina_cabatana.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\renee_lo.jpg">
+      <PackagePath>Assets\Contoso\renee_lo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\richard_tupy.jpg">
+      <PackagePath>Assets\Contoso\richard_tupy.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\robert_ohara.jpg">
+      <PackagePath>Assets\Contoso\robert_ohara.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\robin_young.jpg">
+      <PackagePath>Assets\Contoso\robin_young.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\rob_barker.jpg">
+      <PackagePath>Assets\Contoso\rob_barker.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\rob_young.jpg">
+      <PackagePath>Assets\Contoso\rob_young.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\roland_wacker.jpg">
+      <PackagePath>Assets\Contoso\roland_wacker.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\ron_gabel.jpg">
+      <PackagePath>Assets\Contoso\ron_gabel.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\sameer_tejani.jpg">
+      <PackagePath>Assets\Contoso\sameer_tejani.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\sanjay_patel.jpg">
+      <PackagePath>Assets\Contoso\sanjay_patel.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\sanjay_shah.jpg">
+      <PackagePath>Assets\Contoso\sanjay_shah.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\scott_bishop.jpg">
+      <PackagePath>Assets\Contoso\scott_bishop.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\scott_gode.jpg">
+      <PackagePath>Assets\Contoso\scott_gode.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\scott_macdonald.jpg">
+      <PackagePath>Assets\Contoso\scott_macdonald.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\scott_rockfield.jpg">
+      <PackagePath>Assets\Contoso\scott_rockfield.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\Sean Purcell.jpg">
+      <PackagePath>Assets\Contoso\Sean Purcell.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\sean_chai.jpg">
+      <PackagePath>Assets\Contoso\sean_chai.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\sean_purcell.jpg">
+      <PackagePath>Assets\Contoso\sean_purcell.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\shmuel_yair.jpg">
+      <PackagePath>Assets\Contoso\shmuel_yair.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\simon_pearson.jpg">
+      <PackagePath>Assets\Contoso\simon_pearson.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\simon_rapier.jpg">
+      <PackagePath>Assets\Contoso\simon_rapier.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\spencer_low.jpg">
+      <PackagePath>Assets\Contoso\spencer_low.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\stan_orme.jpg">
+      <PackagePath>Assets\Contoso\stan_orme.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\stephen_deming.jpg">
+      <PackagePath>Assets\Contoso\stephen_deming.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\steven_wright.jpg">
+      <PackagePath>Assets\Contoso\steven_wright.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\steve_luper.jpg">
+      <PackagePath>Assets\Contoso\steve_luper.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\steve_masters.jpg">
+      <PackagePath>Assets\Contoso\steve_masters.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\stuart_munson.jpg">
+      <PackagePath>Assets\Contoso\stuart_munson.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\sunil_uppal.jpg">
+      <PackagePath>Assets\Contoso\sunil_uppal.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\sven_buck.jpg">
+      <PackagePath>Assets\Contoso\sven_buck.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\syed_abbas.jpg">
+      <PackagePath>Assets\Contoso\syed_abbas.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\tad_orman.jpg">
+      <PackagePath>Assets\Contoso\tad_orman.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\tai_lee.jpg">
+      <PackagePath>Assets\Contoso\tai_lee.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\ted_bremer.jpg">
+      <PackagePath>Assets\Contoso\ted_bremer.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\terrence_phillip.jpg">
+      <PackagePath>Assets\Contoso\terrence_phillip.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\terry_earls.jpg">
+      <PackagePath>Assets\Contoso\terry_earls.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\thomas_hamborg.jpg">
+      <PackagePath>Assets\Contoso\thomas_hamborg.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\tina_lassila.jpg">
+      <PackagePath>Assets\Contoso\tina_lassila.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\tina_makovec.jpg">
+      <PackagePath>Assets\Contoso\tina_makovec.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\toby_nixon.jpg">
+      <PackagePath>Assets\Contoso\toby_nixon.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\todd_rowe.jpg">
+      <PackagePath>Assets\Contoso\todd_rowe.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\tom_youtsey.jpg">
+      <PackagePath>Assets\Contoso\tom_youtsey.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\toni_poe.jpg">
+      <PackagePath>Assets\Contoso\toni_poe.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\tony_madigan.jpg">
+      <PackagePath>Assets\Contoso\tony_madigan.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\tony_wang.jpg">
+      <PackagePath>Assets\Contoso\tony_wang.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\tosh_meston.jpg">
+      <PackagePath>Assets\Contoso\tosh_meston.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\trey_pratt.jpg">
+      <PackagePath>Assets\Contoso\trey_pratt.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\ty_carlson.jpg">
+      <PackagePath>Assets\Contoso\ty_carlson.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\valery_ushakov.jpg">
+      <PackagePath>Assets\Contoso\valery_ushakov.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\vernette_price.jpg">
+      <PackagePath>Assets\Contoso\vernette_price.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\vladimir_egorov.jpg">
+      <PackagePath>Assets\Contoso\vladimir_egorov.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\william_vong.jpg">
+      <PackagePath>Assets\Contoso\william_vong.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Contoso\ye_xu.jpg">
+      <PackagePath>Assets\Contoso\ye_xu.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Ignite\anne_powerpoint.jpg">
+      <PackagePath>Assets\Ignite\anne_powerpoint.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Ignite\cortana_skills.jpg">
+      <PackagePath>Assets\Ignite\cortana_skills.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Ignite\dan_framework.jpg">
+      <PackagePath>Assets\Ignite\dan_framework.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Ignite\joe_azure.jpg">
+      <PackagePath>Assets\Ignite\joe_azure.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Ignite\john_centennial.jpg">
+      <PackagePath>Assets\Ignite\john_centennial.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Ignite\kerri_dotnet.jpg">
+      <PackagePath>Assets\Ignite\kerri_dotnet.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Ignite\sql_lite.jpg">
+      <PackagePath>Assets\Ignite\sql_lite.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Ignite\tina_code.jpg">
+      <PackagePath>Assets\Ignite\tina_code.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Ignite\visual_studio.jpg">
+      <PackagePath>Assets\Ignite\visual_studio.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Ignite\win_dbg.jpg">
+      <PackagePath>Assets\Ignite\win_dbg.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Ignite\ye_zhu.jpg">
+      <PackagePath>Assets\Ignite\ye_zhu.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Ignite\zack_ignite.jpg">
+      <PackagePath>Assets\Ignite\zack_ignite.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Interop\Excel.Interop.exe">
+      <PackagePath>Interop\Excel.Interop.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\bin\x86\Debug\OrgTracker.xr.xml">
+      <PackagePath>OrgTracker.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16278.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\x86\Telerik.Core\Properties\default.rd.xml">
+      <PackagePath>Telerik.Core\Properties\default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\x86\Telerik.UI.Xaml.Map.UWP\Telerik.UI.Xaml.Map.UWP.xr.xml">
+      <PackagePath>Telerik.UI.Xaml.Map.UWP\Telerik.UI.Xaml.Map.UWP.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\x86\Telerik.UI.Xaml.Map.UWP\Themes\Generic.xaml">
+      <PackagePath>Telerik.UI.Xaml.Map.UWP\Themes\Generic.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\x86\Telerik.UI.Xaml.Map.UWP\Themes\ThemeResourcesDark.xaml">
+      <PackagePath>Telerik.UI.Xaml.Map.UWP\Themes\ThemeResourcesDark.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\x86\Telerik.UI.Xaml.Map.UWP\Themes\ThemeResourcesHighContrast.xaml">
+      <PackagePath>Telerik.UI.Xaml.Map.UWP\Themes\ThemeResourcesHighContrast.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\x86\Telerik.UI.Xaml.Map.UWP\Themes\ThemeResourcesLight.xaml">
+      <PackagePath>Telerik.UI.Xaml.Map.UWP\Themes\ThemeResourcesLight.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Telerik.UI.Xaml.Primitives.UWP.xr.xml">
+      <PackagePath>Telerik.UI.Xaml.Primitives.UWP\Telerik.UI.Xaml.Primitives.UWP.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Themes\Generic.xaml">
+      <PackagePath>Telerik.UI.Xaml.Primitives.UWP\Themes\Generic.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Themes\HubTilePalette.xaml">
+      <PackagePath>Telerik.UI.Xaml.Primitives.UWP\Themes\HubTilePalette.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Themes\Resources.xaml">
+      <PackagePath>Telerik.UI.Xaml.Primitives.UWP\Themes\Resources.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Themes\SharedResources.xaml">
+      <PackagePath>Telerik.UI.Xaml.Primitives.UWP\Themes\SharedResources.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeColorsDark.xaml">
+      <PackagePath>Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeColorsDark.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeColorsHighContrast.xaml">
+      <PackagePath>Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeColorsHighContrast.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeColorsLight.xaml">
+      <PackagePath>Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeColorsLight.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeResourcesDark.xaml">
+      <PackagePath>Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeResourcesDark.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeResourcesHighContrast.xaml">
+      <PackagePath>Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeResourcesHighContrast.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeResourcesLight.xaml">
+      <PackagePath>Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeResourcesLight.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.Data\Properties\default.rd.xml">
+      <PackagePath>Telerik.Data\Properties\default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Chart.UWP\CustomDictionary.xml">
+      <PackagePath>Telerik.UI.Xaml.Chart.UWP\CustomDictionary.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Chart.UWP\Telerik.UI.Xaml.Chart.UWP.xr.xml">
+      <PackagePath>Telerik.UI.Xaml.Chart.UWP\Telerik.UI.Xaml.Chart.UWP.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Chart.UWP\Themes\Generic.xaml">
+      <PackagePath>Telerik.UI.Xaml.Chart.UWP\Themes\Generic.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Chart.UWP\Themes\ThemeResourcesDark.xaml">
+      <PackagePath>Telerik.UI.Xaml.Chart.UWP\Themes\ThemeResourcesDark.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Chart.UWP\Themes\ThemeResourcesHighContrast.xaml">
+      <PackagePath>Telerik.UI.Xaml.Chart.UWP\Themes\ThemeResourcesHighContrast.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Chart.UWP\Themes\ThemeResourcesLight.xaml">
+      <PackagePath>Telerik.UI.Xaml.Chart.UWP\Themes\ThemeResourcesLight.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Controls.Data.UWP\Telerik.UI.Xaml.Controls.Data.UWP.xr.xml">
+      <PackagePath>Telerik.UI.Xaml.Controls.Data.UWP\Telerik.UI.Xaml.Controls.Data.UWP.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Controls.Data.UWP\ListView\Resources\reorder-handle-dark.png">
+      <PackagePath>Telerik.UI.Xaml.Controls.Data.UWP\ListView\Resources\reorder-handle-dark.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Controls.Data.UWP\ListView\Resources\reorder-handle-light.png">
+      <PackagePath>Telerik.UI.Xaml.Controls.Data.UWP\ListView\Resources\reorder-handle-light.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Controls.Data.UWP\Themes\DataForm.xaml">
+      <PackagePath>Telerik.UI.Xaml.Controls.Data.UWP\Themes\DataForm.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Controls.Data.UWP\Themes\Generic.xaml">
+      <PackagePath>Telerik.UI.Xaml.Controls.Data.UWP\Themes\Generic.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Controls.Data.UWP\Themes\Listbox.xaml">
+      <PackagePath>Telerik.UI.Xaml.Controls.Data.UWP\Themes\Listbox.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Controls.Data.UWP\Themes\ThemeResourcesDark.xaml">
+      <PackagePath>Telerik.UI.Xaml.Controls.Data.UWP\Themes\ThemeResourcesDark.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Controls.Data.UWP\Themes\ThemeResourcesHighContrast.xaml">
+      <PackagePath>Telerik.UI.Xaml.Controls.Data.UWP\Themes\ThemeResourcesHighContrast.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Controls.Data.UWP\Themes\ThemeResourcesLight.xaml">
+      <PackagePath>Telerik.UI.Xaml.Controls.Data.UWP\Themes\ThemeResourcesLight.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Input.UWP\Telerik.UI.Xaml.Input.UWP.xr.xml">
+      <PackagePath>Telerik.UI.Xaml.Input.UWP\Telerik.UI.Xaml.Input.UWP.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Input.UWP\Themes\Calendar.xaml">
+      <PackagePath>Telerik.UI.Xaml.Input.UWP\Themes\Calendar.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Input.UWP\Themes\CommonResources.xaml">
+      <PackagePath>Telerik.UI.Xaml.Input.UWP\Themes\CommonResources.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Input.UWP\Themes\Generic.xaml">
+      <PackagePath>Telerik.UI.Xaml.Input.UWP\Themes\Generic.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Input.UWP\Themes\Resources.xaml">
+      <PackagePath>Telerik.UI.Xaml.Input.UWP\Themes\Resources.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Input.UWP\Themes\ThemeResourcesDark.xaml">
+      <PackagePath>Telerik.UI.Xaml.Input.UWP\Themes\ThemeResourcesDark.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Input.UWP\Themes\ThemeResourcesHighContrast.xaml">
+      <PackagePath>Telerik.UI.Xaml.Input.UWP\Themes\ThemeResourcesHighContrast.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Input.UWP\Themes\ThemeResourcesLight.xaml">
+      <PackagePath>Telerik.UI.Xaml.Input.UWP\Themes\ThemeResourcesLight.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.DataVisualization.UWP\Telerik.UI.Xaml.DataVisualization.UWP.xr.xml">
+      <PackagePath>Telerik.UI.Xaml.DataVisualization.UWP\Telerik.UI.Xaml.DataVisualization.UWP.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.DataVisualization.UWP\Themes\Generic.xaml">
+      <PackagePath>Telerik.UI.Xaml.DataVisualization.UWP\Themes\Generic.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.DataVisualization.UWP\Themes\Resources.xaml">
+      <PackagePath>Telerik.UI.Xaml.DataVisualization.UWP\Themes\Resources.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.DataVisualization.UWP\Themes\ThemeResourcesDark.xaml">
+      <PackagePath>Telerik.UI.Xaml.DataVisualization.UWP\Themes\ThemeResourcesDark.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.DataVisualization.UWP\Themes\ThemeResourcesHighContrast.xaml">
+      <PackagePath>Telerik.UI.Xaml.DataVisualization.UWP\Themes\ThemeResourcesHighContrast.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.DataVisualization.UWP\Themes\ThemeResourcesLight.xaml">
+      <PackagePath>Telerik.UI.Xaml.DataVisualization.UWP\Themes\ThemeResourcesLight.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Telerik.UI.Xaml.Grid.UWP.xr.xml">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Telerik.UI.Xaml.Grid.UWP.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down.scale-240.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down.scale-180.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down.scale-180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down.scale-140.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down_white.scale-240.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down_white.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down_white.scale-180.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down_white.scale-180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down_white.scale-140.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down_white.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down_white.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down_white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn.scale-240.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn.scale-180.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn.scale-180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn.scale-140.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn_blue.scale-240.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn_blue.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn_blue.scale-180.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn_blue.scale-180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn_blue.scale-140.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn_blue.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn_blue.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn_blue.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn.scale-240.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn.scale-180.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn.scale-180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn.scale-140.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn_blue.scale-240.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn_blue.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn_blue.scale-180.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn_blue.scale-180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn_blue.scale-140.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn_blue.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn_blue.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn_blue.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_dark.scale-240.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_dark.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_dark.scale-180.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_dark.scale-180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_dark.scale-140.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_dark.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_dark.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_dark.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_light.scale-240.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_light.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_light.scale-180.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_light.scale-180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_light.scale-140.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_light.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_light.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_light.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Themes\Generic.xaml">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Themes\Generic.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Themes\Resources.xaml">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Themes\Resources.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Themes\ThemeResourcesDark.xaml">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Themes\ThemeResourcesDark.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Themes\ThemeResourcesHighContrast.xaml">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Themes\ThemeResourcesHighContrast.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.0.6\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Themes\ThemeResourcesLight.xaml">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Themes\ThemeResourcesLight.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\bin\x86\Debug\Core\OrgTracker.exe">
+      <PackagePath>OrgTracker.exe</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
+      <Name>Microsoft.NET.CoreRuntime.1.1</Name>
+      <Version>1.1.25305.1</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.25305.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\ARM\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
+      <Name>Microsoft.NET.CoreRuntime.1.1</Name>
+      <Version>1.1.25305.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.25305.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\x64\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
+      <Name>Microsoft.NET.CoreRuntime.1.1</Name>
+      <Version>1.1.25305.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.25305.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\x86\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.25547.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.25547.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.25547.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.25547.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.25547.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.25547.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.25547.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.25547.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

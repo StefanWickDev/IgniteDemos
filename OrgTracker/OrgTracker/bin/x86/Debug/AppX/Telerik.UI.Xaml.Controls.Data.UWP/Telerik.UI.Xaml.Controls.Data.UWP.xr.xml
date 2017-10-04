@@ -1,0 +1,751 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Roots >
+  <Roots.Interfaces>
+    <RootInterface FullName="Windows.UI.Xaml.Data.IValueConverter" />
+  </Roots.Interfaces>
+  <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="PropertyValue" />
+    <RootPropertyPathName Name="TemplateSettings" />
+    <RootPropertyPathName Name="KnobOffToOnOffset" />
+    <RootPropertyPathName Name="KnobOnToOffOffset" />
+    <RootPropertyPathName Name="KnobCurrentToOffOffset" />
+    <RootPropertyPathName Name="KnobCurrentToOnOffset" />
+    <RootPropertyPathName Name="HasErrors" />
+    <RootPropertyPathName Name="IconDisplayMode" />
+    <RootPropertyPathName Name="DisplayMode" />
+    <RootPropertyPathName Name="IsDropDownOpen" />
+    <RootPropertyPathName Name="CheckedStateBackgroundBrush" />
+    <RootPropertyPathName Name="SelectedForeground" />
+    <RootPropertyPathName Name="DisabledForeground" />
+    <RootPropertyPathName Name="SelectedBackground" />
+    <RootPropertyPathName Name="DropDownOffset" />
+    <RootPropertyPathName Name="DropDownOpenedHeight" />
+    <RootPropertyPathName Name="IsLoadingData" />
+    <RootPropertyPathName Name="LoadDataUICommand" />
+    <RootPropertyPathName Name="LoadMoreItemsText" />
+    <RootPropertyPathName Name="Group" />
+    <RootPropertyPathName Name="Key" />
+    <RootPropertyPathName Name="BorderBrush" />
+    <RootPropertyPathName Name="HandleIconPath" />
+    <RootPropertyPathName Name="Orientation" />
+    <RootPropertyPathName Name="CurrentPullOffset" />
+    <RootPropertyPathName Name="Label" />
+    <RootPropertyPathName Name="PositiveMessage" />
+    <RootPropertyPathName Name="DisplayPositiveMessage" />
+    <RootPropertyPathName Name="IsValid" />
+    <RootPropertyPathName Name="Errors" />
+    <RootPropertyPathName Name="IsEditable" />
+  </Roots.PropertyPathNames>
+  <Roots.RootTypes>
+    <RootType FullName="Windows.UI.Xaml.ResourceDictionary">
+      <RootProperty Name="MergedDictionaries" />
+      <RootProperty Name="Source" />
+      <RootProperty Name="ThemeDictionaries" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.DataForm.EnumToItemsSourceConverter" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.Primitives.BooleanNotConverter" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.DataForm.EditorIconVisibilityConverter" />
+    <RootType FullName="Telerik.Core.BoolToVisibilityConverter" />
+    <RootType FullName="System.Double" />
+    <RootType FullName="Windows.UI.Xaml.Thickness" />
+    <RootType FullName="Windows.UI.Text.FontWeight" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ComboBox" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Control">
+      <RootProperty Name="Padding" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="TabNavigation" />
+      <RootProperty Name="HorizontalContentAlignment" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Template" />
+      <RootProperty Name="UseSystemFocusVisuals" />
+      <RootProperty Name="VerticalContentAlignment" />
+      <RootProperty Name="IsTabStop" />
+      <RootProperty Name="FontWeight" />
+      <RootMethod Name="GetIsTemplateFocusTarget" />
+      <RootMethod Name="SetIsTemplateFocusTarget" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.FrameworkElement">
+      <RootProperty Name="MinWidth" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="MinHeight" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
+      <RootProperty Name="HorizontalScrollMode" />
+      <RootProperty Name="HorizontalScrollBarVisibility" />
+      <RootProperty Name="IsTabStop" />
+      <RootProperty Name="IsHorizontalRailEnabled" />
+      <RootProperty Name="IsVerticalRailEnabled" />
+      <RootProperty Name="IsDeferredScrollingEnabled" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="VerticalScrollBarVisibility" />
+      <RootProperty Name="VerticalScrollMode" />
+      <RootProperty Name="ZoomMode" />
+      <RootProperty Name="BringIntoViewOnFocusChange" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="MinWidth" />
+      <RootProperty Name="VerticalSnapPointsType" />
+      <RootProperty Name="VerticalSnapPointsAlignment" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="TabNavigation" />
+      <RootProperty Name="TopLeftHeader" />
+      <RootMethod Name="GetHorizontalScrollBarVisibility" />
+      <RootMethod Name="SetHorizontalScrollBarVisibility" />
+      <RootMethod Name="GetVerticalScrollBarVisibility" />
+      <RootMethod Name="SetVerticalScrollBarVisibility" />
+      <RootMethod Name="GetHorizontalScrollMode" />
+      <RootMethod Name="SetHorizontalScrollMode" />
+      <RootMethod Name="GetVerticalScrollMode" />
+      <RootMethod Name="SetVerticalScrollMode" />
+      <RootMethod Name="GetIsVerticalRailEnabled" />
+      <RootMethod Name="SetIsVerticalRailEnabled" />
+      <RootMethod Name="GetIsDeferredScrollingEnabled" />
+      <RootMethod Name="SetIsDeferredScrollingEnabled" />
+      <RootMethod Name="GetBringIntoViewOnFocusChange" />
+      <RootMethod Name="SetBringIntoViewOnFocusChange" />
+      <RootMethod Name="GetZoomMode" />
+      <RootMethod Name="SetZoomMode" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ItemsControl">
+      <RootProperty Name="ItemsPanel" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="ItemsSource" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.DataFormComboBoxItem">
+      <RootProperty Name="SelectedForeground" />
+      <RootProperty Name="SelectedBackground" />
+      <RootProperty Name="DisabledForeground" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.BooleanEditor">
+      <RootProperty Name="CheckedStateBackgroundBrush" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.EnumEditor" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.ListEditor" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.DataForm.DataFormAutoCompleteTextBox">
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="FontStyle" />
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="LabelIconStyle" />
+      <RootProperty Name="ErrorIconStyle" />
+      <RootProperty Name="IconDisplayMode" />
+      <RootProperty Name="HasErrors" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="IsTextPredictionEnabled" />
+      <RootProperty Name="SelectionHighlightColor" />
+      <RootProperty Name="InputScope" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.AutoCompleteEditor" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.Input.RadAutoCompleteBox">
+      <RootProperty Name="DropDownMaxHeight" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.RadHeaderedControl">
+      <RootProperty Name="HeaderStyle" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.DataForm.DataFormDateTimePickerButton">
+      <RootProperty Name="LabelIconStyle" />
+      <RootProperty Name="IconDisplayMode" />
+      <RootProperty Name="HighlightFillBrush" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="ErrorIconStyle" />
+      <RootProperty Name="HasErrors" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.DateEditor">
+      <RootProperty Name="HighlightFillBrush" />
+      <RootProperty Name="SelectedBackground" />
+      <RootProperty Name="SelectedForeground" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ControlTemplate">
+      <RootProperty Name="TargetType" />
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.TimeEditor">
+      <RootProperty Name="HighlightFillBrush" />
+      <RootProperty Name="SelectedBackground" />
+      <RootProperty Name="SelectedForeground" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="IsTabStop" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Command" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="RenderTransform" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.StringEditor" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ToggleSwitch">
+      <RootProperty Name="IsOn" />
+      <RootProperty Name="IsEnabled" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="FontStyle" />
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="Style" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.UIElement">
+      <RootProperty Name="ManipulationMode" />
+      <RootProperty Name="IsHitTestVisible" />
+      <RootProperty Name="CacheMode" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.ToggleSwitchCustomEditor">
+      <RootProperty Name="SelectedBackgroundBrush" />
+      <RootProperty Name="OffStateBackground" />
+      <RootProperty Name="PointerOverBackgroundBrush" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.SliderCustomEditor">
+      <RootProperty Name="ThumbBackground" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.SegmentedCustomEditor" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.Input.RadSegmentedControl">
+      <RootProperty Name="CornerRadius" />
+      <RootProperty Name="SeparatorWidth" />
+      <RootProperty Name="SeparatorBrush" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Setter">
+      <RootProperty Name="Property" />
+      <RootProperty Name="Value" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="Children" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Resources" />
+      <RootProperty Name="RowDefinitions" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="MinHeight" />
+      <RootProperty Name="ColumnDefinitions" />
+      <RootProperty Name="MinWidth" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="RenderTransform" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="IsHitTestVisible" />
+      <RootMethod Name="GetRow" />
+      <RootMethod Name="SetRow" />
+      <RootMethod Name="GetColumn" />
+      <RootMethod Name="SetColumn" />
+      <RootMethod Name="GetRowSpan" />
+      <RootMethod Name="SetRowSpan" />
+      <RootMethod Name="GetColumnSpan" />
+      <RootMethod Name="SetColumnSpan" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.VisualStateManager">
+      <RootMethod Name="GetVisualStateGroups" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.VisualStateGroup">
+      <RootProperty Name="States" />
+      <RootProperty Name="Transitions" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.VisualState">
+      <RootProperty Name="Storyboard" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.Storyboard">
+      <RootProperty Name="Children" />
+      <RootProperty Name="RepeatBehavior" />
+      <RootMethod Name="GetTargetProperty" />
+      <RootMethod Name="SetTargetProperty" />
+      <RootMethod Name="GetTargetName" />
+      <RootMethod Name="SetTargetName" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.ObjectAnimationUsingKeyFrames">
+      <RootProperty Name="KeyFrames" />
+      <RootProperty Name="Duration" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.DiscreteObjectKeyFrame">
+      <RootProperty Name="KeyTime" />
+      <RootProperty Name="Value" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Canvas">
+      <RootProperty Name="RenderTransformOrigin" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Resources" />
+      <RootProperty Name="RenderTransform" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="IsHitTestVisible" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Background" />
+      <RootMethod Name="GetZIndex" />
+      <RootMethod Name="SetZIndex" />
+      <RootMethod Name="GetLeft" />
+      <RootMethod Name="SetLeft" />
+      <RootMethod Name="GetTop" />
+      <RootMethod Name="SetTop" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Input.SegmentedItemsControl">
+      <RootProperty Name="ItemContainerStyle" />
+      <RootProperty Name="ItemContainerStyleSelector" />
+      <RootProperty Name="ItemTemplate" />
+      <RootProperty Name="ItemTemplateSelector" />
+      <RootProperty Name="SegmentWidthMode" />
+      <RootProperty Name="CornerRadius" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="SeparatorWidth" />
+      <RootProperty Name="SeparatorBrush" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.TemplateBindingExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Primitives.Thumb">
+      <RootProperty Name="Background" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="DataContext" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Border">
+      <RootProperty Name="Background" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="CornerRadius" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Child" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="Opacity" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="IsHitTestVisible" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="RenderTransformOrigin" />
+      <RootProperty Name="RenderTransform" />
+      <RootProperty Name="Padding" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
+      <RootProperty Name="Height" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ContentPresenter">
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="ContentTemplate" />
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="IsHitTestVisible" />
+      <RootProperty Name="Opacity" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="ContentTransitions" />
+      <RootProperty Name="FlowDirection" />
+      <RootProperty Name="RenderTransformOrigin" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
+      <RootProperty Name="Width" />
+      <RootProperty Name="MaxWidth" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Shapes.Rectangle">
+      <RootProperty Name="Fill" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="RadiusX" />
+      <RootProperty Name="RadiusY" />
+      <RootProperty Name="Stroke" />
+      <RootProperty Name="StrokeThickness" />
+      <RootProperty Name="Opacity" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="UseLayoutRounding" />
+      <RootProperty Name="IsHitTestVisible" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Visibility" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Primitives.TickBar">
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="Fill" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="VerticalAlignment" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Automation.AutomationProperties">
+      <RootMethod Name="GetAccessibilityView" />
+      <RootMethod Name="SetAccessibilityView" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="Mode" />
+      <RootProperty Name="RelativeSource" />
+      <RootProperty Name="Path" />
+      <RootProperty Name="Converter" />
+      <RootProperty Name="ConverterParameter" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.DoubleAnimation">
+      <RootProperty Name="To" />
+      <RootProperty Name="Duration" />
+      <RootProperty Name="EnableDependentAnimation" />
+      <RootProperty Name="EasingFunction" />
+    </RootType>
+    <RootType FullName="System.Boolean" />
+    <RootType FullName="Windows.UI.Xaml.VisualTransition">
+      <RootProperty Name="From" />
+      <RootProperty Name="To" />
+      <RootProperty Name="GeneratedDuration" />
+      <RootProperty Name="Storyboard" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.RepositionThemeAnimation">
+      <RootProperty Name="TargetName" />
+      <RootProperty Name="FromHorizontalOffset" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.RelativeSource">
+      <RootProperty Name="Mode" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Shapes.Ellipse">
+      <RootProperty Name="Fill" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Opacity" />
+      <RootProperty Name="StrokeThickness" />
+      <RootProperty Name="Stroke" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.TranslateTransform" />
+    <RootType FullName="Windows.UI.Xaml.Visibility" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ContentControl">
+      <RootProperty Name="Content" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="IsHitTestVisible" />
+      <RootProperty Name="IsTabStop" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="ContentTemplate" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="FlowDirection" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="FontStyle" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="HorizontalContentAlignment" />
+      <RootProperty Name="VerticalContentAlignment" />
+      <RootProperty Name="DataContext" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="FontFamily" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.SymbolIcon">
+      <RootProperty Name="Style" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="Symbol" />
+      <RootProperty Name="RenderTransformOrigin" />
+      <RootProperty Name="RenderTransform" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="FontStyle" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="IsHitTestVisible" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="RenderTransformOrigin" />
+      <RootProperty Name="RenderTransform" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Primitives.Popup">
+      <RootProperty Name="IsOpen" />
+      <RootProperty Name="IsLightDismissEnabled" />
+      <RootProperty Name="Child" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="Orientation" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="VerticalAlignment" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Input.DateTimePickers.DateTimeList">
+      <RootProperty Name="ComponentType" />
+      <RootProperty Name="ItemWidth" />
+      <RootProperty Name="ItemHeight" />
+      <RootProperty Name="ItemSpacing" />
+      <RootProperty Name="Step" />
+      <RootProperty Name="SelectedBackground" />
+      <RootProperty Name="SelectedForeground" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Input.AutoCompleteBox.SuggestionItemsControl">
+      <RootProperty Name="DisplayMemberPath" />
+      <RootProperty Name="ItemTemplate" />
+      <RootProperty Name="ItemTemplateSelector" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.FontIcon">
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="Glyph" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="Opacity" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="IsHitTestVisible" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.PointerUpThemeAnimation" />
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.PointerDownThemeAnimation" />
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.SplitCloseThemeAnimation">
+      <RootProperty Name="ClosedTargetName" />
+      <RootProperty Name="OffsetFromCenter" />
+      <RootProperty Name="OpenedTargetName" />
+      <RootProperty Name="OpenedLength" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.SplitOpenThemeAnimation">
+      <RootProperty Name="ClosedTargetName" />
+      <RootProperty Name="OffsetFromCenter" />
+      <RootProperty Name="OpenedTargetName" />
+      <RootProperty Name="OpenedLength" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ItemsPresenter" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ItemsPanelTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Primitives.CarouselPanel" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.UserThemeResources" />
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.CustomResourceExtension" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.ListView.OrientationToRotateDegreesConverter" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.ListView.ItemCheckBoxControl">
+      <RootProperty Name="CheckBoxPosition" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.DataForm.DataFormNumericTextBox">
+      <RootProperty Name="ErrorIconStyle" />
+      <RootProperty Name="HasErrors" />
+      <RootProperty Name="IconDisplayMode" />
+      <RootProperty Name="LabelIconStyle" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="IsReadOnly" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.NumericEditor">
+      <RootProperty Name="ButtonsBackground" />
+      <RootProperty Name="ButtonsPointerOverBackgroundBrush" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Primitives.RangeControlBase">
+      <RootProperty Name="Minimum" />
+      <RootProperty Name="Maximum" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Input.RadNumericBox">
+      <RootProperty Name="DecreaseButtonStyle" />
+      <RootProperty Name="IncreaseButtonStyle" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.ErrorsControl" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.PositiveMessageControl" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.LabelControl" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.EntityPropertyControl" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.RadDataForm">
+      <RootProperty Name="LayoutDefinition" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.RadHexView">
+      <RootProperty Name="MinUpdateInterval" />
+      <RootProperty Name="MaxUpdateInterval" />
+      <RootProperty Name="UpdateIntervalStep" />
+      <RootProperty Name="LayoutDefinition" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.ListView.OrientationToScrollModeConverter" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.ListView.OrientationToHorizontalAlignmentConverter" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.ListView.OrientationToVerticalAlignmentConverter" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.ListView.OrientationToSizeConverter" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.RadListView">
+      <RootProperty Name="LayoutDefinition" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Primitives.RadBusyIndicator">
+      <RootProperty Name="IndicatorAnimationStyle" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Opacity" />
+      <RootProperty Name="ContentPosition" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="VerticalContentAlignment" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="RenderTransformOrigin" />
+      <RootProperty Name="RenderTransform" />
+      <RootProperty Name="AnimationStyle" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.ListView.OffsetToOpacityConverter" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.ListView.OffsetToAngleConverter" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.ListView.PullToRefreshIndicator">
+      <RootProperty Name="IsTabStop" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.ListView.RadListViewItem" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.ListView.Primitives.ListViewGroupHeader" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.ListView.Primitives.ListViewCurrencyControl" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.ListView.ListViewAutoDataLoadingControl" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.ListView.ListViewLoadDataControl" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.ListView.ListViewBusyOverlayControl" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ProgressRing">
+      <RootProperty Name="IsActive" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ProgressBar">
+      <RootProperty Name="IsIndeterminate" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Opacity" />
+      <RootProperty Name="Padding" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.RotateTransform">
+      <RootProperty Name="Angle" />
+      <RootProperty Name="CenterX" />
+      <RootProperty Name="CenterY" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.DataTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.BitmapIcon">
+      <RootProperty Name="UriSource" />
+      <RootProperty Name="ManipulationMode" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="RenderTransform" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Shapes.Path">
+      <RootProperty Name="IsHitTestVisible" />
+      <RootProperty Name="Stretch" />
+      <RootProperty Name="Fill" />
+      <RootProperty Name="Data" />
+      <RootProperty Name="StrokeLineJoin" />
+      <RootProperty Name="StrokeThickness" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="RenderTransformOrigin" />
+      <RootProperty Name="RenderTransform" />
+      <RootProperty Name="Opacity" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="UseLayoutRounding" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.NullExtension" />
+    <RootType FullName="Windows.UI.Xaml.Media.CompositeTransform">
+      <RootProperty Name="Rotation" />
+      <RootProperty Name="TranslateX" />
+      <RootProperty Name="TranslateY" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Primitives.BusyIndicator.BusyIndicatorAnimation">
+      <RootProperty Name="IsTabStop" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="IsActive" />
+      <RootProperty Name="Foreground" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.ListView.ListViewRootPanel">
+      <RootProperty Name="Children" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.ListView.Primitives.FrozenGroupsPanel" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.ListView.ListViewPanel">
+      <RootProperty Name="Background" />
+      <RootProperty Name="Children" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.ListView.ChildrenListViewPanel">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="Children" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.ListView.StackLayoutDefinition" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.HexPanel" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.HexView.FlatTightHexLayoutDefinition" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.DataForm.StackDataFormLayoutDefinition" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.Primitives.Common.InlineButton">
+      <RootProperty Name="IsRepeatingEnabled" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="PointerOverBackgroundBrush" />
+      <RootProperty Name="PointerOverBorderBrush" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="IsTabStop" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.CheckBox">
+      <RootProperty Name="Style" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.DataBoundListBox.ItemReorderControl">
+      <RootProperty Name="ShiftDownButtonStyle" />
+      <RootProperty Name="ShiftUpButtonStyle" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Style" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.DataBoundListBox.PullToRefreshIndicatorControl">
+      <RootProperty Name="Style" />
+      <RootProperty Name="Visibility" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.ItemCheckBox">
+      <RootProperty Name="IsHitTestVisible" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Shapes.Shape">
+      <RootProperty Name="Fill" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.RadDataBoundListBox">
+      <RootProperty Name="EmptyContentTemplate" />
+      <RootProperty Name="ItemLoadingContent" />
+      <RootProperty Name="CheckBoxesIndicatorStyle" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.RadVirtualizingDataControl">
+      <RootProperty Name="VerticalScrollBarVisibility" />
+      <RootProperty Name="HorizontalScrollBarVisibility" />
+      <RootProperty Name="VirtualizationStrategyDefinition" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.RadDataBoundListBoxItem" />
+    <RootType FullName="Windows.UI.Xaml.Media.ScaleTransform" />
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.CubicEase">
+      <RootProperty Name="EasingMode" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Data.StackVirtualizationStrategyDefinition" />
+    <RootType FullName="Windows.UI.Xaml.Media.SolidColorBrush">
+      <RootProperty Name="Color" />
+    </RootType>
+  </Roots.RootTypes>
+</Roots>

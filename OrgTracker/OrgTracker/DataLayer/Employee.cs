@@ -64,6 +64,7 @@ namespace OrgTracker
             EmployeeMap.Clear();
             ObservableCollection<Employee> employeeList = new ObservableCollection<Employee>();
 
+            // hard-coded data for demo purposes - plug in your real data source here
             if (organization == "Ignite")
             {
                 #region Ignite employees

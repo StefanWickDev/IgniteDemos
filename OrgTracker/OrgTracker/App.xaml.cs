@@ -40,6 +40,57 @@ namespace OrgTracker
             this.Suspending += OnSuspending;
         }
 
+        protected override void OnBackgroundActivated(BackgroundActivatedEventArgs args)
+        {
+            // connection established from the fulltrust process
+            if (args.TaskInstance.TriggerDetails is AppServiceTriggerDetails)
+            {
+                AppServiceDeferral = args.TaskInstance.GetDeferral();
+                args.TaskInstance.Canceled += OnTaskCanceled;
+
+                if (args.TaskInstance.TriggerDetails is AppServiceTriggerDetails details)
+                {
+                    Connection = details.AppServiceConnection;
+                    AppServiceConnected?.Invoke(this, null);
+                }
+            }
+        }
+
+        private void OnTaskCanceled(IBackgroundTaskInstance sender, BackgroundTaskCancellationReason reason)
+        {
+            if (AppServiceDeferral != null)
+            {
+                AppServiceDeferral.Complete();
+            }
+        }
+
+        protected override void OnActivated(IActivatedEventArgs args)
+        {
+            switch (args.Kind)
+            {
+                case ActivationKind.CommandLineLaunch:
+                    CommandLineActivatedEventArgs cmdLineArgs = args as CommandLineActivatedEventArgs;
+                    CommandLineActivationOperation operation = cmdLineArgs.Operation;
+                    Organization = operation.Arguments.TrimEnd();
+                    break;
+                case ActivationKind.StartupTask:
+                    // handle auto-launch specific here
+                    break;
+                default:
+                    break;
+            }
+
+            Frame rootFrame = Window.Current.Content as Frame;
+            if (rootFrame == null)
+            {
+                rootFrame = new Frame();
+                Window.Current.Content = rootFrame;
+            }
+            rootFrame.Navigate(typeof(MainPage));
+
+            Window.Current.Activate();
+        }
+
         /// <summary>
         /// Invoked when the application is launched normally by the end user.  Other entry points
         /// will be used such as when the application is launched to open a specific file.

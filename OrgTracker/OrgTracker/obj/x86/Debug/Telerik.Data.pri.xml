@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="Telerik.Data" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="Telerik.Core">
+				<ResourceMapSubtree name="Properties">
+					<NamedResource name="default.rd.xml" uri="ms-resource://Telerik.Data/Files/Telerik.Core/Properties/default.rd.xml">
+						<Candidate type="Path">
+							<Value>Telerik.Core\Properties\default.rd.xml</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Telerik.Data">
+				<ResourceMapSubtree name="Properties">
+					<NamedResource name="default.rd.xml" uri="ms-resource://Telerik.Data/Files/Telerik.Data/Properties/default.rd.xml">
+						<Candidate type="Path">
+							<Value>Telerik.Data\Properties\default.rd.xml</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

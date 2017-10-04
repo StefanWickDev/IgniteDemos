@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Roots >
+  <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="Mail" />
+    <RootPropertyPathName Name="OfficePhone" />
+    <RootPropertyPathName Name="Department" />
+    <RootPropertyPathName Name="Title" />
+    <RootPropertyPathName Name="Name" />
+    <RootPropertyPathName Name="ImageLink" />
+    <RootPropertyPathName Name="CanPrint" />
+    <RootPropertyPathName Name="CanExport" />
+  </Roots.PropertyPathNames>
+  <Roots.RootTypes>
+    <RootType FullName="Windows.UI.Xaml.Application">
+      <RootProperty Name="RequestedTheme" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Page">
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="Background" />
+      <RootProperty Name="RowDefinitions" />
+      <RootProperty Name="ColumnDefinitions" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="Margin" />
+      <RootMethod Name="GetRow" />
+      <RootMethod Name="SetRow" />
+      <RootMethod Name="GetColumn" />
+      <RootMethod Name="SetColumn" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
+      <RootProperty Name="Height" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Shapes.Ellipse">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Fill" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Orientation" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="FontFamily" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.HyperlinkButton">
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Name" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="IsEnabled" />
+      <RootEvent Name="Click" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding" />
+    <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
+      <RootProperty Name="ImageSource" />
+    </RootType>
+    <RootType FullName="OrgTracker.EmployeePage" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.Chart.RadCartesianChart">
+      <RootProperty Name="PaletteName" />
+      <RootProperty Name="HorizontalAxis" />
+      <RootProperty Name="VerticalAxis" />
+      <RootProperty Name="Grid" />
+      <RootProperty Name="Series" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Chart.CategoricalAxis">
+      <RootProperty Name="LabelTemplate" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.DataTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Chart.LinearAxis" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.Chart.CartesianChartGrid">
+      <RootProperty Name="MajorLinesVisibility" />
+      <RootProperty Name="StripLinesVisibility" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Chart.BarSeries">
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="PaletteMode" />
+      <RootProperty Name="ValueBinding" />
+      <RootProperty Name="CategoryBinding" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Chart.PropertyNameDataPointBinding">
+      <RootProperty Name="PropertyName" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
+      <RootProperty Name="Width" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootEvent Name="SelectionChanged" />
+    </RootType>
+    <RootType FullName="OrgTracker.ChartPage" />
+    <RootType FullName="OrgTracker.NotImplPage" />
+    <RootType FullName="Telerik.UI.Xaml.Controls.Grid.RadDataGrid">
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="AutoGenerateColumns" />
+      <RootProperty Name="UserFilterMode" />
+      <RootProperty Name="UserSortMode" />
+      <RootProperty Name="UserEditMode" />
+      <RootProperty Name="Columns" />
+      <RootEvent Name="SelectionChanged" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.SymbolIcon">
+      <RootProperty Name="Symbol" />
+      <RootProperty Name="Margin" />
+      <RootEvent Name="Tapped" />
+    </RootType>
+    <RootType FullName="Telerik.UI.Xaml.Controls.Grid.DataGridTemplateColumn">
+      <RootProperty Name="Header" />
+      <RootProperty Name="CellContentTemplate" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="Source" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+    </RootType>
+    <RootType FullName="OrgTracker.GridPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.NavigationView">
+      <RootProperty Name="IsPaneToggleButtonVisible" />
+      <RootProperty Name="OpenPaneLength" />
+      <RootProperty Name="CompactModeThresholdWidth" />
+      <RootProperty Name="ExpandedModeThresholdWidth" />
+      <RootProperty Name="IsSettingsVisible" />
+      <RootProperty Name="HeaderTemplate" />
+      <RootProperty Name="Content" />
+      <RootEvent Name="Loaded" />
+      <RootEvent Name="ItemInvoked" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Frame">
+      <RootProperty Name="ContentTransitions" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.TransitionCollection" />
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.NavigationThemeTransition" />
+    <RootType FullName="OrgTracker.MainPage" />
+  </Roots.RootTypes>
+</Roots>
