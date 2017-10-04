@@ -1,1 +1,0 @@
-C:\Users\swick\Documents\IgniteDemos\OrgTracker\OrgTracker\OrgTracker.csproj;x86
