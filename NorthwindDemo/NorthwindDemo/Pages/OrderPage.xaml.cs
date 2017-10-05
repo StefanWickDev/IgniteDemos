@@ -64,6 +64,7 @@ namespace NorthwindDemo
         {
             if (e.Parameter is int)
             {
+                // Parameter is passed when double-clicking on an order in Orders grid
                 orderId = (int)e.Parameter;
                 SetUpPageForOrder(orderId);
             }
@@ -103,9 +104,10 @@ namespace NorthwindDemo
                 // Disable buttons that are only use for new orders
                 Pay.Visibility = Visibility.Collapsed;
                 Save.Visibility = Visibility.Collapsed;
-                Reprint.Visibility = Visibility.Visible;
+                Reprint.Visibility = ((App.Current as App).UsePrinter? Visibility.Visible: Visibility.Collapsed);
 
-                Toggle_Click(this, null); // switch to compact overlay size
+
+                    Toggle_Click(this, null); // switch to compact overlay size
             }
         }
 
@@ -340,32 +342,35 @@ namespace NorthwindDemo
 
         private void BuildReceipt(string orderId, string customerName, Order order)
         {
-            StringBuilder sb = new StringBuilder();
-            sb.Append("\r\n\r\n");
-            sb.Append("       " + "Northwind Traders Company\r\n");
-            sb.Append("       " + "One Microsoft Way\r\n");
-            sb.Append("       " + "Redmond WA 98052-8300\r\n\r\n");
-            sb.Append("       " + "  (425) 882-8080\r\n");
-            sb.Append("\r\n\r\n");
-            if (currentOrder != null)
+            if (((App.Current as App).UsePrinter))
             {
-                sb.Append("       " + "*** DUPLICATE RECEIPT ***\r\n\r\n");
-            }
-            sb.Append(" Order ID   " + orderId + "\r\n");
-            sb.Append(" Order date " + order.OrderDate.ToShortDateString() + "\r\n");
-            sb.Append(" Ordered by " + customerName.PadRight(29).Substring(0, 29) + "\r\n\r\n");
-            sb.Append(" Qty         Description        Amount\r\n\r\n");
-            foreach (OrderDetail item in OrderDetails)
-            {
-                sb.Append(item.Quantity.ToString("###.00").PadLeft(6) + " " +
-                    item.ProductName.PadRight(20).Substring(0, 20) + " " +
-                    item.NetAmount.ToString("######.00").PadLeft(10) + "\r\n");
-            }
-            sb.Append("\r\n\r\n");
-            sb.Append("       " + "TOTAL:               " + OrderTotal.PadLeft(10) + "\r\n");
-            sb.Append("\r\n\r\n");
+                StringBuilder sb = new StringBuilder();
+                sb.Append("\r\n\r\n");
+                sb.Append("       " + "Northwind Traders Company\r\n");
+                sb.Append("       " + "One Microsoft Way\r\n");
+                sb.Append("       " + "Redmond WA 98052-8300\r\n\r\n");
+                sb.Append("       " + "  (425) 882-8080\r\n");
+                sb.Append("\r\n\r\n");
+                if (currentOrder != null)
+                {
+                    sb.Append("       " + "*** DUPLICATE RECEIPT ***\r\n\r\n");
+                }
+                sb.Append(" Order ID   " + orderId + "\r\n");
+                sb.Append(" Order date " + order.OrderDate.ToShortDateString() + "\r\n");
+                sb.Append(" Ordered by " + customerName.PadRight(29).Substring(0, 29) + "\r\n\r\n");
+                sb.Append(" Qty         Description        Amount\r\n\r\n");
+                foreach (OrderDetail item in OrderDetails)
+                {
+                    sb.Append(item.Quantity.ToString("###.00").PadLeft(6) + " " +
+                        item.ProductName.PadRight(20).Substring(0, 20) + " " +
+                        item.NetAmount.ToString("######.00").PadLeft(10) + "\r\n");
+                }
+                sb.Append("\r\n\r\n");
+                sb.Append("       " + "TOTAL:               " + OrderTotal.PadLeft(10) + "\r\n");
+                sb.Append("\r\n\r\n");
 
-            PrintText.Text = sb.ToString();
+                PrintText.Text = sb.ToString();
+            }
         }
 #endregion
         private async void Reprint_Click(object sender, RoutedEventArgs e)
@@ -380,7 +385,7 @@ namespace NorthwindDemo
         private async Task ReleasePrintHelper()
         {
             await dispatcher.RunAsync(CoreDispatcherPriority.Normal,
-                () =>
+                async () =>
                 {
                     PrintText.Text = "";
                     printHelper.Dispose();
