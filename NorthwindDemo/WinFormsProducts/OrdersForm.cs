@@ -8,9 +8,10 @@ namespace WinFormsProducts
 {
     public partial class OrdersForm : Form
     {
+        //TODO: replace string with your own SQL server connection string, then reinstall the app
         private string connectionString =
-          @"Data Source=Surfacebook\SQLDeveloper;Initial Catalog=NORTHWIND;" +
-          "Integrated Security=SSPI";
+          @"Data Source=YourComputerName\SQLEXPRESS;Initial Catalog=NORTHWIND;Integrated Security=SSPI";
+
         List<OrderHeader> Orders { get; set; }
         public OrdersForm()
         {

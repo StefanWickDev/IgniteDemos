@@ -26,8 +26,8 @@ namespace NorthwindDemo
     sealed partial class App : Application
     {
         //TODO: replace string with your own SQL server connection string, then reinstall the app
-        private string connectionString =            
-            @"Data Source=tcp:sausing-desktop.redmond.corp.microsoft.com;Initial Catalog=Northwind;Integrated Security=True";
+        private string connectionString =
+            @"Data Source=YourComputerName\SQLEXPRESS;Initial Catalog=NORTHWIND;Integrated Security=SSPI";
 
         public string ConnectionString { get; set; }
         public bool UsePrinter { get; set; }

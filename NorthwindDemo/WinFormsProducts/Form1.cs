@@ -15,7 +15,7 @@ namespace WinFormsProducts
     {
         //TODO: replace string with your own SQL server connection string, then reinstall the app
         private string connectionString =
-            @"Data Source=tcp:sausing-desktop.redmond.corp.microsoft.com;Initial Catalog=Northwind;Integrated Security=True";
+            @"Data Source=YourComputerName\SQLEXPRESS;Initial Catalog=NORTHWIND;Integrated Security=SSPI";
 
 
         public ProductList Products { get; set; } // products currently displayed on this page
