@@ -380,7 +380,7 @@ namespace NorthwindDemo
         private async Task ReleasePrintHelper()
         {
             await dispatcher.RunAsync(CoreDispatcherPriority.Normal,
-                async () =>
+                () =>
                 {
                     PrintText.Text = "";
                     printHelper.Dispose();

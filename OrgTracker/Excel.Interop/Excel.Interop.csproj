@@ -54,7 +54,7 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
     <Reference Include="Windows">
-      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\UnionMetadata\10.0.16278.0\Windows.winmd</HintPath>
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\UnionMetadata\10.0.16288.0\Windows.winmd</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
