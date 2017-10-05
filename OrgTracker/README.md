@@ -12,9 +12,11 @@ This samples shows a number of new UWP capabilities:
 
 Build/Deploy and Run the sample
 -------------------------------
- - IMPORTANT: Before you deploy, read the notes about database setup
- - Deploy the solution by selecting **Build** \> **Deploy solution**.
+  - Deploy the solution by selecting **Build** \> **Deploy solution**.
  - Press F5 to run!
+
+ This demo is also available for download from the Windows Store if you just want to run it:
+ https://www.microsoft.com/store/apps/9PNBVH8NR34C
 
 
 

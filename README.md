@@ -10,3 +10,6 @@ You will need the following setup to run these:
 
 To Build/Deploy and Run the sample projects see the read.me for each individual project.
 
+The Org Tracker demo is also available for download from the Windows Store if you just want to run it:
+ https://www.microsoft.com/store/apps/9PNBVH8NR34C
+
